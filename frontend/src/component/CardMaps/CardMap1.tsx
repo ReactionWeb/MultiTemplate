@@ -22,7 +22,7 @@ const CardMap1 = () => {
     const renderCards = () => {
         return(
            arr.map((item)=>(
-                <Grid item key={item} sm={12} md={6} lg={4} xl={3}>
+                <Grid item key={item} sm={12} md={6} lg={4} xl={4}>
                     <Card>
                         <CardActionArea>
                             <CardMedia

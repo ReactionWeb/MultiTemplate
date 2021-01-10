@@ -4,7 +4,9 @@ import {Container, Paper, Grid, Typography, Button, makeStyles} from "@material-
 import Header1 from "./Headers/Header1";
 import Overlay1 from "./Overlays/Overlay1";
 import CardMap1 from "./CardMaps/CardMap1";
-import img1 from "../static/images/img1.jpg"
+import Preface from "./Preface/Preface";
+import FormCallMeBack from "./Forms/FormCallMeBack";
+import Overlay2 from "./Overlays/Overlay2";
 
 const useStyles = makeStyles((theme) => ({
     mainFeaturesPost :{
@@ -29,35 +31,19 @@ const Wrapper = () => {
         <BrowserRouter>
             <Header1/>
             <main>
-                    <Container fixed>
-                            <Grid container>
-                                <Paper className={styles.mainFeaturesPost}
-                                       style={{backgroundImage:`url(${img1})`}}>
-                                    <Overlay1/>
-                                    <Grid item md={6}>
-                                        <div className={styles.mainFeaturesPostContent}>
-                                            <Typography variant="h4" gutterBottom>
-                                                Lorem ipsum
-                                            </Typography>
-                                            <Typography variant="h6" paragraph>
-                                                dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                            </Typography>
-                                            <Button variant={"contained"} color={"secondary"}>
-                                                More
-                                            </Button>
-                                        </div>
-                                    </Grid>
-                                </Paper>
-                            </Grid>
-                    </Container>
-                    <Container fixed>
-                        <Grid container justify={"flex-end"}>
-                            <Grid item md={6}  className={styles.mainFeaturesPost}>
-                                <CardMap1/>
-                            </Grid>
-                        </Grid>
-                    </Container>
+                <Preface>
+                    <Overlay1/>
+                    <Overlay2/>
+                </Preface>
 
+                <Container fixed>
+                    <Grid container justify={"flex-end"}>
+                        <Grid item md={8}  className={styles.mainFeaturesPost}>
+                            <CardMap1/>
+                        </Grid>
+                    </Grid>
+                </Container>
+                <FormCallMeBack/>
                 <CardMap1/>
             </main>
             {/*Хэдеры*/}
