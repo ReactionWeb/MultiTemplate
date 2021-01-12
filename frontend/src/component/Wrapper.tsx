@@ -2,11 +2,16 @@ import React from 'react';
 import {BrowserRouter, Route, Switch} from "react-router-dom";
 import {Container, Paper, Grid, Typography, Button, makeStyles} from "@material-ui/core";
 import Header1 from "./Headers/Header1";
-import Overlay1 from "./Overlays/Overlay1";
+
+import OverlayFilling from "./Overlays/OverlayFilling";
+import OverlayGradient from "./Overlays/OverlayGradient";
+import OverlayImage from "./Overlays/OverlayImage";
+
 import CardMap1 from "./CardMaps/CardMap1";
 import Preface from "./Preface/Preface";
 import FormCallMeBack from "./Forms/FormCallMeBack";
-import Overlay2 from "./Overlays/Overlay2";
+
+
 
 const useStyles = makeStyles((theme) => ({
     mainFeaturesPost :{
@@ -32,8 +37,9 @@ const Wrapper = () => {
             <Header1/>
             <main>
                 <Preface>
-                    <Overlay1/>
-                    <Overlay2/>
+                    <OverlayImage/>
+                    <OverlayFilling/>
+                    <OverlayGradient/>
                 </Preface>
 
                 <Container fixed>
@@ -44,7 +50,10 @@ const Wrapper = () => {
                     </Grid>
                 </Container>
                 <FormCallMeBack/>
-                <CardMap1/>
+                <CardMap1>
+                    <OverlayImage/>
+                    <OverlayFilling/>
+                </CardMap1>
             </main>
             {/*Хэдеры*/}
             {/*Виджеты*/}

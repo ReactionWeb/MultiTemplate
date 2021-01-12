@@ -20,13 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1357e9ef-0aeb-4fe8-975e-3872f5925e75" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/component/ComponentInterface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/component/Forms/FormCallMeBack.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/component/Overlays/Overlay2.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/component/Preface/Preface.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/component/Overlays/OverlayImage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/component/Styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/static/images/transparent.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/component/CardMaps/CardMap1.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/CardMaps/CardMap1.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/component/Overlays/Overlay1.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Overlays/Overlay1.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/ComponentInterface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/ComponentInterface.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Overlays/Overlay1.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Overlays/OverlayFilling.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Overlays/Overlay2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Overlays/OverlayGradient.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Preface/Preface.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Preface/Preface.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/component/Wrapper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Wrapper.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +41,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -58,13 +62,14 @@
     <property name="ts.external.directory.path" value="D:\GitHub\MultiTemplate\frontend\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitHub\MultiTemplate\frontend\src\static\images" />
+      <recent name="D:\GitHub\MultiTemplate\frontend\src\component" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\GitHub\MultiTemplate\frontend\src\component\Overlays" />
       <recent name="D:\GitHub\MultiTemplate\frontend\src\component\Preface" />
       <recent name="D:\GitHub\MultiTemplate\frontend\src\component\Forms" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\GitHub\MultiTemplate\frontend\src\component" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -76,6 +81,8 @@
       <option name="presentableId" value="Default" />
       <updated>1610309138744</updated>
       <workItem from="1610309167764" duration="11701000" />
+      <workItem from="1610396424032" duration="1910000" />
+      <workItem from="1610474060094" duration="8951000" />
     </task>
     <servers />
   </component>
@@ -92,5 +99,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

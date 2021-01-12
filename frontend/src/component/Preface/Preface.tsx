@@ -5,22 +5,7 @@ import Button from "@material-ui/core/Button";
 import img1 from "../../static/images/img1.jpg"
 import {componentProps} from "../ComponentInterface";
 import {render} from "react-dom";
-
-const useStyles = makeStyles((theme) => ({
-    PrefacePaper :{
-        position: 'relative',
-        color: theme.palette.common.white,
-        marginBottom: theme.spacing(4),
-
-        backgroundSize:"cover",
-        backgroundRepeat:"no-repeat",
-        backgroundPosition:"center",
-    },
-    PrefaceContent:{
-        position: 'relative',
-        padding: theme.spacing(6),
-    },
-}))
+import {useStyles} from "../Styles";
 
 const Preface = (props : componentProps) => {
     const styles = useStyles();
@@ -28,11 +13,10 @@ const Preface = (props : componentProps) => {
     return(
         <Container fixed>
             <Grid container>
-                <Paper className={styles.PrefacePaper}
-                       style={{backgroundImage:`url(${img1})`}}>
+                <Paper className={styles.paper}>
                     {props.children}
                     <Grid item md={6}>
-                        <div className={styles.PrefaceContent}>
+                        <div className={styles.content}>
                             <Typography variant="h4" gutterBottom>
                                 Lorem ipsum
                             </Typography>
