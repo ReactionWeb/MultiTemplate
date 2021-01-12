@@ -10,24 +10,7 @@ import OverlayImage from "./Overlays/OverlayImage";
 import CardMap1 from "./CardMaps/CardMap1";
 import Preface from "./Preface/Preface";
 import FormCallMeBack from "./Forms/FormCallMeBack";
-
-
-
-const useStyles = makeStyles((theme) => ({
-    mainFeaturesPost :{
-        position: 'relative',
-        color: theme.palette.common.white,
-        marginBottom: theme.spacing(4),
-
-        backgroundSize:"cover",
-        backgroundRepeat:"no-repeat",
-        backgroundPosition:"center",
-    },
-    mainFeaturesPostContent:{
-        position: 'relative',
-        padding: theme.spacing(6),
-    },
-}))
+import {useStyles} from "./Styles";
 
 
 const Wrapper = () => {
@@ -35,21 +18,25 @@ const Wrapper = () => {
     return(
         <BrowserRouter>
             <Header1/>
-            <main>
+            <main className={styles.container}>
+                <OverlayImage/>
+                <OverlayFilling/>
                 <Preface>
                     <OverlayImage/>
                     <OverlayFilling/>
                     <OverlayGradient/>
                 </Preface>
 
-                <Container fixed>
+                <Container fixed className={styles.container}>
+                    <OverlayImage/>
+                    <OverlayFilling/>
                     <Grid container justify={"flex-end"}>
-                        <Grid item md={8}  className={styles.mainFeaturesPost}>
+                        <Grid item md={8}>
                             <CardMap1/>
                         </Grid>
                     </Grid>
                 </Container>
-                <FormCallMeBack/>
+                {/*<FormCallMeBack/>*/}
                 <CardMap1>
                     <OverlayImage/>
                     <OverlayFilling/>

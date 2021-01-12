@@ -22,37 +22,36 @@ const CardMap1 = (props: componentProps) => {
         return(
            arr.map((item)=>(
                 <Grid item key={item} sm={12} md={6} lg={4} xl={4}>
-                    <div color={"white"}>
-                        <Card>
-                            <CardActionArea>
-                                <CardMedia
-                                    component="img"
-                                    alt="Contemplative Reptile"
-                                    height="140"
-                                    src={img1}
-                                    title="Contemplative Reptile"
-                                />
-                                <CardContent>
-                                    <Typography gutterBottom variant="h5" component="h2">
-                                        Lizard
-                                    </Typography>
-                                    <Typography variant="body2" color="textSecondary" component="p">
-                                        Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                                        across all continents except Antarctica
-                                    </Typography>
-                                </CardContent>
-                            </CardActionArea>
-                            <CardActions>
-                                <Button size="small" color="primary">
-                                    Share
-                                </Button>
-                                <Button size="small" color="primary">
-                                    Learn More
-                                </Button>
-                            </CardActions>
+                    <Card>
+                        <CardActionArea>
+                            <CardMedia
+                                component="img"
+                                alt="Contemplative Reptile"
+                                min-height="40"
+                                src={img1}
+                                title="Contemplative Reptile"
+                            />
+                            <CardContent>
+                                <Typography gutterBottom variant="h5" component="h2">
+                                    Lizard
+                                </Typography>
+                                <Typography variant="body2" color="textSecondary" component="p">
+                                    Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
+                                    across all continents except Antarctica
+                                </Typography>
+                            </CardContent>
+                        </CardActionArea>
+                        <CardActions>
+                            <Button size="small" color="primary">
+                                Share
+                            </Button>
+                            <Button size="small" color="primary">
+                                Learn More
+                            </Button>
+                        </CardActions>
 
-                        </Card>
-                    </div>
+                    </Card>
+
                 </Grid>
            ))
            )
@@ -60,13 +59,11 @@ const CardMap1 = (props: componentProps) => {
 
 
     return(
-        <Container>
-            <Paper className={styles.paper}>
-                {props.children}
-                <Grid container spacing={3} className={styles.content}>
-                    {renderCards()}
-                </Grid>
-            </Paper>
+        <Container className={styles.container}>
+            {props.children}
+            <Grid container spacing={3} className={styles.content}>
+                {renderCards()}
+            </Grid>
         </Container>
     )
 }

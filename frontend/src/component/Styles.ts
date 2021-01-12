@@ -27,11 +27,10 @@ export const useStyles = makeStyles((theme)=>({
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
     },
-    paper :{
+    container :{
         position: 'relative',
         color: theme.palette.common.white,
         marginBottom: theme.spacing(4),
-
         backgroundSize:"cover",
         backgroundRepeat:"no-repeat",
         backgroundPosition:"center",
@@ -39,6 +38,7 @@ export const useStyles = makeStyles((theme)=>({
     content:{
         position: 'relative',
         padding: theme.spacing(6),
+        margin: 0,
     },
 }))
 //
