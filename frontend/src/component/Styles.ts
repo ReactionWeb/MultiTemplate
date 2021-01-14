@@ -40,5 +40,24 @@ export const useStyles = makeStyles((theme)=>({
         padding: theme.spacing(6),
         margin: 0,
     },
+    backPaper : {
+        position:"absolute",
+        height: "300pt",
+        width: "300pt",
+        backgroundImage: "url(https://picsum.photos/300/300)",
+    },
+    frontPaper : {
+        position:"absolute",
+        marginTop: "30pt",
+        marginLeft: "-30pt",
+        height: "300pt",
+        width: "300pt",
+        color: theme.palette.common.white,
+        backgroundImage: "url(https://picsum.photos/300/300)",
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
+    },
+
 }))
 //

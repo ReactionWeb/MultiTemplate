@@ -1,5 +1,4 @@
 import React from 'react';
-import {BrowserRouter} from "react-router-dom";
 import {AppBar, Box, Toolbar} from "@material-ui/core";
 
 const Header1 = () => {

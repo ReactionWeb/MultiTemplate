@@ -17,7 +17,6 @@ const CardMap1 = (props: componentProps) => {
 
     let arr = [1,2,3,4,5,6];
 
-
     const renderCards = () => {
         return(
            arr.map((item)=>(

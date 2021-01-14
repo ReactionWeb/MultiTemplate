@@ -11,6 +11,7 @@ import CardMap1 from "./CardMaps/CardMap1";
 import Preface from "./Preface/Preface";
 import FormCallMeBack from "./Forms/FormCallMeBack";
 import {useStyles} from "./Styles";
+import DoublePaper from "./SingleCards/DoublePaper";
 
 
 const Wrapper = () => {
@@ -23,7 +24,7 @@ const Wrapper = () => {
                 <OverlayFilling/>
                 <Preface>
                     <OverlayImage/>
-                    <OverlayFilling/>
+                    {/*<OverlayFilling/>*/}
                     <OverlayGradient/>
                 </Preface>
 
@@ -41,6 +42,13 @@ const Wrapper = () => {
                     <OverlayImage/>
                     <OverlayFilling/>
                 </CardMap1>
+
+                <Container fixed className={styles.container}>
+                    <DoublePaper>
+                        <OverlayGradient/>
+                    </DoublePaper>
+                </Container>
+
             </main>
             {/*Хэдеры*/}
             {/*Виджеты*/}

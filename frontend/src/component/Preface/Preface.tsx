@@ -1,10 +1,8 @@
 import React from 'react';
-import {Container, Grid, makeStyles, Paper} from "@material-ui/core";
+import {Container, Grid} from "@material-ui/core";
 import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
-import img1 from "../../static/images/img1.jpg"
 import {componentProps} from "../ComponentInterface";
-import {render} from "react-dom";
 import {useStyles} from "../Styles";
 
 const Preface = (props : componentProps) => {
