@@ -8,10 +8,11 @@ import OverlayGradient from "./Overlays/OverlayGradient";
 import OverlayImage from "./Overlays/OverlayImage";
 
 import CardMap1 from "./CardMaps/CardMap1";
+import CardMapCustom1 from "./CardMaps/CardMapCustom1";
 import Preface from "./Preface/Preface";
 import FormCallMeBack from "./Forms/FormCallMeBack";
 import {useStyles} from "./Styles";
-import DoublePaper from "./SingleCards/DoublePaper";
+import {Content} from "./Content";
 
 
 const Wrapper = () => {
@@ -21,33 +22,23 @@ const Wrapper = () => {
             <Header1/>
             <main className={styles.container}>
                 <OverlayImage/>
-                <OverlayFilling/>
-                <Preface>
+                <Preface md={6} justify={"flex-start"} mainTitle={Content.LoremContent} mainContent={Content.LoremContent2}>
                     <OverlayImage/>
                     {/*<OverlayFilling/>*/}
                     <OverlayGradient/>
                 </Preface>
-
-                <Container fixed className={styles.container}>
+                {/*<CardMap1>*/}
+                {/*    <OverlayImage/>*/}
+                {/*    <OverlayFilling/>*/}
+                {/*</CardMap1>*/}
+                <CardMapCustom1 sm={6} md={4} lg={4} xl={4} justify={"flex-start"} spacing={3} partPrimary={8} partSecondary={4}>
                     <OverlayImage/>
                     <OverlayFilling/>
-                    <Grid container justify={"flex-end"}>
-                        <Grid item md={8}>
-                            <CardMap1/>
-                        </Grid>
-                    </Grid>
-                </Container>
+                    <Preface md={12} justify={"center"} mainTitle={Content.LoremContent} mainContent={Content.LoremContent2}/>
+                </CardMapCustom1>
+
                 {/*<FormCallMeBack/>*/}
-                <CardMap1>
-                    <OverlayImage/>
-                    <OverlayFilling/>
-                </CardMap1>
 
-                <Container fixed className={styles.container}>
-                    <DoublePaper>
-                        <OverlayGradient/>
-                    </DoublePaper>
-                </Container>
 
             </main>
             {/*Хэдеры*/}

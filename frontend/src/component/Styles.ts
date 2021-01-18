@@ -15,7 +15,7 @@ export const useStyles = makeStyles((theme)=>({
         bottom: 0,
         right: 0,
         left: 0,
-        background: 'linear-gradient( 45deg, rgba(0,0,0,0.5) 49% , 50% ,rgba(0,0,0,0) 50%)',
+        background: 'linear-gradient( 45deg, rgba(0,0,0,0.5) 49% , 50% ,rgba(0,0,0,0) 51%)',
     },
     overlayImage:{
         position: "absolute",
@@ -40,24 +40,14 @@ export const useStyles = makeStyles((theme)=>({
         padding: theme.spacing(6),
         margin: 0,
     },
-    backPaper : {
-        position:"absolute",
-        height: "300pt",
-        width: "300pt",
-        backgroundImage: "url(https://picsum.photos/300/300)",
+
+    absoluteComponent:{
+        position:"absolute"
     },
-    frontPaper : {
-        position:"absolute",
-        marginTop: "30pt",
-        marginLeft: "-30pt",
-        height: "300pt",
-        width: "300pt",
-        color: theme.palette.common.white,
-        backgroundImage: "url(https://picsum.photos/300/300)",
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
-        backgroundPosition: "center",
-    },
+
+    rotation:{
+        rotate: "3deg",
+    }
 
 }))
 //
