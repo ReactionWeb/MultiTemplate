@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container, Grid} from "@material-ui/core";
+import {Container, Grid, Paper} from "@material-ui/core";
 import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
 import {componentProps} from "../ComponentInterface";
@@ -11,9 +11,11 @@ const Preface = (props : componentProps) => {
     return(
         <Container className={styles.container}>
             <Grid container>
-                {props.children}
+                <Paper>
+                    {props.children}
+                </Paper>
                 <Grid item md={props.md} justify={props.justify}>
-                    <div className={styles.content}>
+                    <div className={styles.contentTransparentBg}>
                         <Typography variant="h4" gutterBottom>
                             {props.mainTitle}
                         </Typography>

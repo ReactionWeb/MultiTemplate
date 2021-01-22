@@ -64,8 +64,7 @@ const CardMapCustom1 = (props: componentProps) => {
 
     return(
         <Container className={styles.container}>
-            <Grid container className={styles.content} justify={justify}>
-
+            <Grid container className={styles.contentTransparentBg} justify={justify}>
                 <Grid item md={partSecondary}>
                     {props.children}
                 </Grid>

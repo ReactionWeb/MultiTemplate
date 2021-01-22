@@ -57,10 +57,12 @@ const CardMap1 = (props: componentProps) => {
 
     return(
         <Container className={styles.container}>
-            {props.children}
-            <Grid container spacing={3} className={styles.content}>
-                {renderCards()}
-            </Grid>
+            <Paper>
+                {props.children}
+                <Grid container spacing={3} className={styles.contentTransparentBg}>
+                    {renderCards()}
+                </Grid>
+            </Paper>
         </Container>
     )
 }

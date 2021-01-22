@@ -1,4 +1,5 @@
 import {makeStyles} from "@material-ui/core";
+import img1 from "../static/images/img1.jpg";
 
 export const useStyles = makeStyles((theme)=>({
     overlayFilling:{
@@ -8,6 +9,7 @@ export const useStyles = makeStyles((theme)=>({
         right: 0,
         left: 0,
         backgroundColor: "rgba(0,0,0,0.4)",
+        borderRadius: "inherit",
     },
     overlayGradient:{
         position: "absolute",
@@ -16,6 +18,7 @@ export const useStyles = makeStyles((theme)=>({
         right: 0,
         left: 0,
         background: 'linear-gradient( 45deg, rgba(0,0,0,0.5) 49% , 50% ,rgba(0,0,0,0) 51%)',
+        borderRadius: "inherit",
     },
     overlayImage:{
         position: "absolute",
@@ -23,9 +26,11 @@ export const useStyles = makeStyles((theme)=>({
         bottom: 0,
         right: 0,
         left: 0,
+        borderRadius: "inherit",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
+        backgroundImage: `url(${img1})`,
     },
     container :{
         position: 'relative',
@@ -35,12 +40,21 @@ export const useStyles = makeStyles((theme)=>({
         backgroundRepeat:"no-repeat",
         backgroundPosition:"center",
     },
-    content:{
+    contentTransparentBg:{
         position: 'relative',
-        padding: theme.spacing(6),
+        color: theme.palette.common.white,
+        padding: theme.spacing(4),
         margin: 0,
     },
-
+    contentWhiteBg:{
+        backgroundColor: theme.palette.common.white,
+        position: 'relative',
+        padding: theme.spacing(4),
+    },
+    lineSpacing:{
+        marginBottom: theme.spacing(3),
+        marginTop: theme.spacing(3),
+    },
     absoluteComponent:{
         position:"absolute"
     },
