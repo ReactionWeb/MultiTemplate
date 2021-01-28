@@ -20,3 +20,8 @@ export interface componentProps{
 export interface overlayProps extends componentProps{
     color?: string;
 }
+
+export interface inputProps{
+    value: any|string;
+    setValue: (value:any) => void | any;
+}

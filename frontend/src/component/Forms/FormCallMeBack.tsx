@@ -1,11 +1,13 @@
 import React from 'react';
-import {Box, Button, Container, Grid, Paper, TextField, Typography, CardContent, Card, CardActionArea} from "@material-ui/core";
+import {Box, Button, Container, Grid, TextField, Typography, CardContent, Card} from "@material-ui/core";
+import {useState} from 'react';
 import {useStyles} from "../Styles";
 import {componentProps} from "../ComponentInterface";
 import PhoneInput from "../Inputs/PhoneInput"
 
 const FormCallMeBack = (props:componentProps) => {
     let styles = useStyles();
+    let [number, setNumber] = useState('+7');
 
     return(
         <Container className={styles.container}>
@@ -21,7 +23,8 @@ const FormCallMeBack = (props:componentProps) => {
                         </Grid>
                         <Grid container spacing={2} className={styles.contentWhiteBg}>
                                 <Grid item md={4} sm={12}>
-                                    <PhoneInput/>
+                                    <PhoneInput value={number} setValue={setNumber}/>
+                                    <div>{number}</div>
                                     <TextField variant={"filled"} fullWidth inputMode={"text"} className={styles.lineSpacing} label={"Name"}/>
                                 </Grid>
                                 <Grid item md={8} sm={12}>
