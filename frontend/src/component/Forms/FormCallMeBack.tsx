@@ -4,10 +4,14 @@ import {useState} from 'react';
 import {useStyles} from "../Styles";
 import {componentProps} from "../ComponentInterface";
 import PhoneInput from "../Inputs/PhoneInput"
+import NameInput from "../Inputs/NameInput";
+import TextInput from "../Inputs/TextInput";
 
 const FormCallMeBack = (props:componentProps) => {
     let styles = useStyles();
     let [number, setNumber] = useState('+7');
+    let [name, setName] = useState('');
+    let [message, setMessage] = useState('Message');
 
     return(
         <Container className={styles.container}>
@@ -24,11 +28,11 @@ const FormCallMeBack = (props:componentProps) => {
                         <Grid container spacing={2} className={styles.contentWhiteBg}>
                                 <Grid item md={4} sm={12}>
                                     <PhoneInput value={number} setValue={setNumber}/>
-                                    <div>{number}</div>
-                                    <TextField variant={"filled"} fullWidth inputMode={"text"} className={styles.lineSpacing} label={"Name"}/>
+                                    <br className={styles.lineSpacing}/>
+                                    <NameInput value={name} setValue={setName}/>
                                 </Grid>
                                 <Grid item md={8} sm={12}>
-                                    <TextField variant={"filled"} multiline fullWidth rows={7} label={"Message"}/>
+                                    <TextInput value={message} setValue={setMessage}/>
                                 </Grid>
                         </Grid>
                         <Grid container justify={"center"} className={styles.lineSpacing}>

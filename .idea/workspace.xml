@@ -20,13 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1357e9ef-0aeb-4fe8-975e-3872f5925e75" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/src/database.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/mailer/api_mailer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/messenger/api_messenger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/models.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/component/Inputs/NameInput.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/component/Inputs/TextInput.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/server.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/component/CardMaps/CardMap1.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/CardMaps/CardMap1.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/component/Overlays/OverlayImage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Overlays/OverlayImage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/component/Preface/Preface.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Preface/Preface.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/component/Styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Styles.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/component/Wrapper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Wrapper.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Forms/FormCallMeBack.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Forms/FormCallMeBack.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Inputs/PhoneInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Inputs/PhoneInput.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +44,7 @@
       <list>
         <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -53,19 +60,22 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend/src/component/Overlays" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/backend/src/messenger" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="D:\GitHub\MultiTemplate\frontend\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\GitHub\MultiTemplate\frontend\src\static\images" />
-      <recent name="D:\GitHub\MultiTemplate\frontend\src\component" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHub\MultiTemplate\backend\src\messenger" />
       <recent name="D:\GitHub\MultiTemplate\frontend\src\component\Overlays" />
       <recent name="D:\GitHub\MultiTemplate\frontend\src\component\Preface" />
       <recent name="D:\GitHub\MultiTemplate\frontend\src\component\Forms" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitHub\MultiTemplate\backend\src" />
+      <recent name="D:\GitHub\MultiTemplate\frontend\src\static\images" />
+      <recent name="D:\GitHub\MultiTemplate\frontend\src\component" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -79,6 +89,7 @@
       <workItem from="1610309167764" duration="11701000" />
       <workItem from="1610396424032" duration="1910000" />
       <workItem from="1610474060094" duration="13165000" />
+      <workItem from="1612100413536" duration="5733000" />
     </task>
     <servers />
   </component>
@@ -96,5 +107,11 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="575" y="231" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1612102442428">
+      <screen x="64" y="0" width="1472" height="864" />
+    </state>
+    <state x="575" y="231" key="#com.intellij.fileTypes.FileTypeChooser/64.0.1472.864@64.0.1472.864" timestamp="1612102442428" />
   </component>
 </project>
