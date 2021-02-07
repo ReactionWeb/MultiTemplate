@@ -29,8 +29,9 @@ const Wrapper = () => {
                     <OverlayImage/>
                     <OverlayGradient/>
                     <Paragraph md={6} justify={"flex-start"} mainTitle={Content.LoremContent} mainContent={Content.LoremContent2}/>
+                    <Paragraph md={6} justify={"flex-end"} mainTitle={Content.LoremContent} mainContent={Content.LoremContent2}/>
                 </Box>
-
+                
 
                 {/*<CardMap1>*/}
                 {/*    <OverlayImage/>*/}

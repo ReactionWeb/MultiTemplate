@@ -68,7 +68,7 @@ const CardMapCustom1 = (props: componentProps) => {
                     {props.children}
                 </Grid>
                 <Grid item md={partPrimary}>
-                    <Grid container spacing={spacing}>
+                    <Grid container spacing={spacing} className={styles.contentTransparentBg}>
                         {renderCards()}
                     </Grid>
                 </Grid>
