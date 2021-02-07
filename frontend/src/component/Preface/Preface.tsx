@@ -25,6 +25,7 @@ const Preface = (props : componentProps) => {
                         <Button variant={"contained"} color={"secondary"}>
                             More
                         </Button>
+                        
                     </div>
                 </Grid>
             </Grid>

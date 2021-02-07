@@ -14,12 +14,16 @@ import FormCallMeBack from "./Forms/FormCallMeBack";
 import {useStyles} from "./Styles";
 import {Content} from "./Content";
 
+import CarouselFirst from './Carousel/Carousel1';
+import CarouselSecond from './Carousel/Carousel2';
+
 
 const Wrapper = () => {
     const styles = useStyles();
     return(
         <BrowserRouter>
             <Header1/>
+            
             <main className={styles.container}>
                 <OverlayImage/>
                 <Preface md={6} justify={"flex-start"} mainTitle={Content.LoremContent} mainContent={Content.LoremContent2}>
@@ -27,15 +31,18 @@ const Wrapper = () => {
                     {/*<OverlayFilling/>*/}
                     <OverlayGradient/>
                 </Preface>
+               
                 {/*<CardMap1>*/}
                 {/*    <OverlayImage/>*/}
                 {/*    <OverlayFilling/>*/}
                 {/*</CardMap1>*/}
+                
                 <CardMapCustom1 sm={6} md={4} lg={4} xl={4} justify={"flex-start"} spacing={3} partPrimary={8} partSecondary={4}>
                     <OverlayImage/>
                     <OverlayFilling/>
                     <Preface md={12} justify={"center"} mainTitle={Content.LoremContent} mainContent={Content.LoremContent2}/>
                 </CardMapCustom1>
+               
                 <FormCallMeBack>
                     <OverlayImage/>
                     <OverlayFilling/>

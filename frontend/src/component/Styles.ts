@@ -2,6 +2,9 @@ import {makeStyles} from "@material-ui/core";
 import img1 from "../static/images/img1.jpg";
 
 export const useStyles = makeStyles((theme)=>({
+
+    
+
     overlayFilling:{
         position: "absolute",
         top: 0,
