@@ -5,16 +5,16 @@ import Button from "@material-ui/core/Button";
 import {componentProps} from "../ComponentInterface";
 import {useStyles} from "../Styles";
 
-const Preface = (props : componentProps) => {
+const Paragraph = (props : componentProps) => {
     const styles = useStyles();
 
     return(
         <Container className={styles.container}>
-            <Grid container>
+            <Grid container justify={props.justify}>
                 <Paper>
                     {props.children}
                 </Paper>
-                <Grid item md={props.md} justify={props.justify}>
+                <Grid item md={props.md} >
                     <div className={styles.contentTransparentBg}>
                         <Typography variant="h4" gutterBottom>
                             {props.mainTitle}
@@ -32,4 +32,4 @@ const Preface = (props : componentProps) => {
     )
 }
 
-export default Preface;
+export default Paragraph;
