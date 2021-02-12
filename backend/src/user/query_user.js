@@ -1,17 +1,15 @@
 const bcrypt = require('bcrypt');
-const { User } = require('../models');
+const User = require('../models');
 const { tokenDecode, tokenSign} = require('./webtoken');
+
 
 const registerUser = async(username, email, password) => {
     let hash_pass = await bcrypt.hash(password, 10); 
     try{
-        await User.create({
-            userName: username,
-            email: email,
-            password: hash_pass
-        });
+        const user = await User.create({userName: username, email: email, password: hash_pass});
     } catch(e) {
-        throw('Ошибка регистрации');
+        console.log(e);
+        throw('Ошибка при создании пользователя')
     }
 }
 
@@ -40,4 +38,9 @@ const authUser = async(username, password) => {
             throw('Пароль введен неверно');
         }
     }
+}
+
+module.exports = {
+    registerUser,
+    authUser
 }
