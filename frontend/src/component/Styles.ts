@@ -3,7 +3,17 @@ import img1 from "../static/images/img1.jpg";
 
 export const useStyles = makeStyles((theme)=>({
 
-    
+    avatarLarge: {
+        width: theme.spacing(10),
+        height: theme.spacing(10),
+        
+      },
+
+    paperAvatar: {
+        padding: theme.spacing(2),
+        textAlign: 'center',
+        color: theme.palette.text.secondary,
+    },
 
     overlayFilling:{
         position: "absolute",

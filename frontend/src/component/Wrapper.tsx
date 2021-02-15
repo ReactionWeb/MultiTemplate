@@ -17,6 +17,8 @@ import {Content} from "./Content";
 import CarouselFirst from './Carousel/Carousel1';
 import CarouselSecond from './Carousel/Carousel2';
 
+import AvatarCircle from './Reviews/ReviewsPhoto';
+import Comments from './Comments/Comment';
 
 const Wrapper = () => {
     const styles = useStyles();
@@ -30,6 +32,9 @@ const Wrapper = () => {
                     <OverlayImage/>
                     {/*<OverlayFilling/>*/}
                     <OverlayGradient/>
+                    <Comments mainContent={Content.LoremContent2}>
+                    <OverlayImage/>
+                </Comments>
                 </Preface>
                
                 {/*<CardMap1>*/}
@@ -44,11 +49,14 @@ const Wrapper = () => {
                 </CardMapCustom1>
                
                 <FormCallMeBack>
+                    
                     <OverlayImage/>
+                    
                     <OverlayFilling/>
+                    
                 </FormCallMeBack>
                 {/*<FormCallMeBack/>*/}
-
+                <AvatarCircle/>
 
             </main>
             {/*Хэдеры*/}
