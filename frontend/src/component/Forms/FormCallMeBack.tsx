@@ -26,12 +26,12 @@ const FormCallMeBack = (props:componentProps) => {
                             </Grid>
                         </Grid>
                         <Grid container spacing={2} className={styles.contentWhiteBg}>
-                                <Grid item md={4} sm={12}>
+                                <Grid item md={4} sm={12} xs={12}>
                                     <PhoneInput value={number} setValue={setNumber}/>
                                     <br className={styles.lineSpacing}/>
                                     <NameInput value={name} setValue={setName}/>
                                 </Grid>
-                                <Grid item md={8} sm={12}>
+                                <Grid item md={8} sm={12} xs={12}>
                                     <TextInput value={message} setValue={setMessage}/>
                                 </Grid>
                         </Grid>

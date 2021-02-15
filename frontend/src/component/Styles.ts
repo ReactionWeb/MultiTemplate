@@ -45,6 +45,9 @@ export const useStyles = makeStyles((theme)=>({
         backgroundPosition: "center",
         backgroundImage: `url(${img1})`,
     },
+    overlayTriangleImage:{
+
+    },
     container :{
         position: 'relative',
         color: theme.palette.common.white,
