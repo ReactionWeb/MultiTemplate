@@ -46,7 +46,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/backend/src/messenger" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="D:\GitHub\MultiTemplate\frontend\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -99,5 +99,9 @@
       <screen x="64" y="0" width="1472" height="864" />
     </state>
     <state x="575" y="231" key="#com.intellij.fileTypes.FileTypeChooser/64.0.1472.864@64.0.1472.864" timestamp="1612102442428" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1612903587987">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1612903587987" />
   </component>
 </project>
