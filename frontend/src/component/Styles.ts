@@ -4,16 +4,60 @@ import img1 from "../static/images/img1.jpg";
 export const useStyles = makeStyles((theme)=>({
 
     avatarLarge: {
-        width: theme.spacing(10),
-        height: theme.spacing(10),
+        width: theme.spacing(20),
+        height: theme.spacing(20),
         
       },
+      avatarMedum: {
+        width: theme.spacing(13),
+        height: theme.spacing(13),
+        margin:"auto"
+        
+      },
+      footer1: {
+        paddingTop: theme.spacing(5, 4),
+        marginTop: 'auto',
+        backgroundColor:
+          theme.palette.type === 'dark' ? theme.palette.grey[200] : theme.palette.grey[500],
+      },
+      footer2: {
+        borderTop: `1px solid ${theme.palette.divider}`,
+        marginTop: theme.spacing(8),
+        paddingTop: theme.spacing(3),
+        paddingBottom: theme.spacing(3),
+        [theme.breakpoints.up('sm')]: {
+          paddingTop: theme.spacing(6),
+          paddingBottom: theme.spacing(6),
+        }},
+      divCar:{
+        display: "flex",
+      flexWrap: "wrap",
+      "& > *": {
+        margin: theme.spacing(1),
+        width: theme.spacing(16),
+        height: theme.spacing(16)
+      }
+      },
+      paperCard: {
+        padding: theme.spacing(4),
+        Align: 'center',
+        width: 340,
+        height: 150
+      },
+      animLogo: {
+        width: 65,
+        maxWidth:80,
+        height: 450
+     
+      },
+      
 
     paperAvatar: {
-        padding: theme.spacing(2),
-        textAlign: 'center',
-        color: theme.palette.text.secondary,
-    },
+        maxWidth: 400,
+        margin: "40px 20px",
+        padding: "40px 20px",
+        
+      },
 
     overlayFilling:{
         position: "absolute",
@@ -56,6 +100,14 @@ export const useStyles = makeStyles((theme)=>({
         backgroundRepeat:"no-repeat",
         backgroundPosition:"center",
     },
+    container2 :{
+      position: 'relative',
+      color: theme.palette.common.white,
+      paddingBottom: theme.spacing(4),
+      backgroundSize:"cover",
+      backgroundRepeat:"no-repeat",
+      backgroundPosition:"center",
+  },
     contentTransparentBg:{
         position: 'relative',
         color: theme.palette.common.white,

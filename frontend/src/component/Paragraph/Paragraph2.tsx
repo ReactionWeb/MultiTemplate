@@ -5,16 +5,38 @@ import Button from "@material-ui/core/Button";
 import {componentProps} from "../ComponentInterface";
 import {useStyles} from "../Styles";
 
-const Paragraph = (props : componentProps) => {
+const Paragraph2 = (props : componentProps) => {
     const styles = useStyles();
 
+    let arr = [1,2];
+
+    const renderParagraph = () => {
+      
+      return(
+         arr.map(()=>{
+
+           return(
+            
+            <div>
+
+            </div>
+         )})
+         )
+  }
+
     return(
-        <Container className={styles.container}>
-            <Grid container justify={props.justify}>
-                <Paper >
-                    {props.children}
-                </Paper>
-                <Grid item md={props.md} >
+        
+        <Container className={styles.container}> 
+        <Grid
+        container
+        direction="column"
+        alignItems={props.alignItems}
+        justify={props.justify}
+        >
+            <Grid container item md={props.md} spacing={props.spacing} >
+                {/*renderParagraph()*/}
+                <Grid item  >
+           
                     <div className={styles.contentTransparentBg}>
                         <Typography variant="h4" gutterBottom>
                             {props.mainTitle}
@@ -27,10 +49,14 @@ const Paragraph = (props : componentProps) => {
                         </Button>
                         
                     </div>
-                </Grid>
-            </Grid>
-        </Container>
-    )
-}
+            
+        </Grid>
+            </Grid> 
+        </Grid>
+        
+   </Container>
+    
+    ) 
+ }  
 
-export default Paragraph;
+export default Paragraph2;
