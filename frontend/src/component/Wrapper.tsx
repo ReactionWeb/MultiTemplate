@@ -67,6 +67,10 @@ const Wrapper = () => {
 
                 </Changer>
 
+                <Paragraph md={12} mainTitle={Content.LoremContent} mainContent={Content.LoremContent2}>
+                    <OverlayImage/>
+                    <OverlayFilling/>
+                </Paragraph>
             </main>
             {/*Хэдеры*/}
             {/*Виджеты*/}

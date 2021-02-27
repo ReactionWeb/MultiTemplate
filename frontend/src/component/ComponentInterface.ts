@@ -4,6 +4,7 @@ export interface componentProps{
     children?: React.ReactNode[] | React.ReactNode;
     mainTitle?: string;
     mainContent?: string;
+    container?: true | false;
 
     //--ГРИДЫ
     justify?: "space-around" | "space-between" | "space-evenly" | "center" | "flex-end" | "flex-start" | undefined;
