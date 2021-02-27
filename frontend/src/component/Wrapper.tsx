@@ -30,9 +30,16 @@ import Registr from './logIn/Registration';
 import CardAbout1 from './CardsAbout/CardAbout1';
 import CardAbout2 from './CardsAbout/CardAbout2';
 import CardAbout3 from './CardsAbout/CardAbout3';
+import CardAbout4 from './CardsAbout/CardAbout4';
+import CardAbout5 from './CardsAbout/CardAbout5';
+import Card from './CardsAbout/CArd';
 
 import Paragraph2 from "./Paragraph/Paragraph2";
 import SignInSide from "./logIn/LoginSide";
+
+import CardNews1 from "./News/CardNews";
+import CardNews2 from "./News/CardNews2";
+
 
 const Wrapper = () => {
     const styles = useStyles();
@@ -61,7 +68,10 @@ const Wrapper = () => {
                 </Paragraph2>
                 <Paragraph2 alignItems={"flex-start"} md={8} spacing={10} justify={"flex-end"} mainTitle={Content.LoremContent} mainContent={Content.LoremContent2}/>
 
-                <CardAbout3 mainTitle={Content.LoremContent} mainContent={Content.LoremContent3}/>
+                <Card  mainTitle={Content.LoremContent} mainContent={Content.LoremContent3}/>
+                {/*<CardNews2 md={6} spacing={2} mainTitle={Content.LoremContent} mainContent={Content.LoremContent3}/>*/}
+                <CardAbout5 mainTitle={Content.LoremContent} mainContent={Content.LoremContent3}/>
+
                 {/*<CardMap1>*/}
                 {/*    <OverlayImage/>*/}
                 {/*    <OverlayFilling/>*/}

@@ -4,8 +4,12 @@ import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
 import {componentProps} from "../ComponentInterface";
 import {useStyles} from "../Styles";
+import DoneOutlinedIcon from '@material-ui/icons/DoneOutlined';
 
-const Paragraph2 = (props : componentProps) => {
+const imgLink =
+  "https://picsum.photos/600/400";
+
+const CardAbout5 = (props : componentProps) => {
     const styles = useStyles();
 
     return(
@@ -13,29 +17,33 @@ const Paragraph2 = (props : componentProps) => {
         <Container className={styles.container}> 
         <Grid
         container
-        direction="column"
+        direction="row"
         alignItems={props.alignItems}
         justify={props.justify}
         >
-            <Grid container item md={props.md} spacing={props.spacing} >
+            
+            <Grid container item md={6} spacing={props.spacing} >
                 {/*renderParagraph()*/}
                 <Grid item  >
            
                     <div className={styles.contentTransparentBg}>
-                        <Typography variant="h4" gutterBottom>
+                        <Typography variant="h2" gutterBottom>
                             {props.mainTitle}
                         </Typography>
                         <Typography variant="h6" paragraph>
+                            <DoneOutlinedIcon/>
                             {props.mainContent}
                         </Typography>
-                        <Button variant={"contained"} color={"secondary"}>
-                            More
-                        </Button>
+                        
                         
                     </div>
             
-        </Grid>
+                </Grid>
+                
             </Grid> 
+            <Grid item md={3}>
+            <img src={imgLink}/>
+            </Grid>
         </Grid>
         
    </Container>
@@ -43,4 +51,4 @@ const Paragraph2 = (props : componentProps) => {
     ) 
  }  
 
-export default Paragraph2;
+export default CardAbout5;
