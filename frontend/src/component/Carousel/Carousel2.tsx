@@ -1,4 +1,6 @@
+
 import React, { Component } from 'react';
+// @ts-ignore
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
 import img1 from "../../static/images/img1.jpg";

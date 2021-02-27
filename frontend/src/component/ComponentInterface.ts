@@ -26,3 +26,7 @@ export interface inputProps{
     value: any|string;
     setValue: (value:any) => void | any;
 }
+
+export interface containerProps{
+    children?: React.ReactNode[] | React.ReactNode;
+}

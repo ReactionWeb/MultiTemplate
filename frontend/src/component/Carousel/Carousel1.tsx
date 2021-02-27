@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+// @ts-ignore
 import Carousel from '@brainhubeu/react-carousel';
 import '@brainhubeu/react-carousel/lib/style.css';
 import img1 from "../../static/images/img2.jpg";
