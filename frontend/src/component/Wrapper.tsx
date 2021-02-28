@@ -89,71 +89,81 @@ const Wrapper = () => {
 
 
 
-                {/*<CardNews2 md={6} spacing={2} mainTitle={Content.LoremContent} mainContent={Content.LoremContent3}/>*/}
-                <CardAbout1 mainTitle={Content.LoremContent}
-                            mainContent={Content.LoremContent3}>
-                </CardAbout1>
-                <CardAbout2 mainTitle={Content.LoremContent}
-                            mainContent={Content.LoremContent3}>
-                </CardAbout2>
-                <CardAbout3 mainTitle={Content.LoremContent}
-                            mainContent={Content.LoremContent3}>
-                </CardAbout3>
+                {/*/!*<CardNews2 md={6} spacing={2} mainTitle={Content.LoremContent} mainContent={Content.LoremContent3}/>*!/*/}
+                {/*<WidgetBox>*/}
+                {/*<CardAbout1 mainTitle={Content.LoremContent}*/}
+                {/*            mainContent={Content.LoremContent3}>*/}
+                {/*</CardAbout1>*/}
+                {/*<CardAbout2 mainTitle={Content.LoremContent}*/}
+                {/*            mainContent={Content.LoremContent3}>*/}
+                {/*</CardAbout2>*/}
+                {/*<CardAbout3 mainTitle={Content.LoremContent}*/}
+                {/*            mainContent={Content.LoremContent3}>*/}
+                {/*</CardAbout3>*/}
 
-                <CardAbout5 mainTitle={Content.LoremContent}
-                            mainContent={Content.LoremContent3}>
-                </CardAbout5>
+                {/*<CardAbout5 mainTitle={Content.LoremContent}*/}
+                {/*            mainContent={Content.LoremContent3}>*/}
+                {/*</CardAbout5>*/}
 
-                {/*<CardMap1>*/}
-                {/*    <OverlayImage/>*/}
+
+                {/*/!*<CardMap1>*!/*/}
+                {/*/!*    <OverlayImage/>*!/*/}
+                {/*/!*    <OverlayFilling/>*!/*/}
+                {/*/!*</CardMap1>*!/*/}
+
+                {/*<CardMapCustom1 sm={6} md={4} lg={4} xl={4} justify={"flex-start"} spacing={3} partPrimary={8} partSecondary={4}>*/}
+                {/*    /!*<OverlayImage/>*!/*/}
                 {/*    <OverlayFilling/>*/}
-                {/*</CardMap1>*/}
-                <CardMapCustom1 sm={6} md={4} lg={4} xl={4} justify={"flex-start"} spacing={3} partPrimary={8} partSecondary={4}>
-                    <OverlayImage/>
-                    <OverlayFilling/>
-                    <Paragraph md={12} justify={"center"} mainTitle={Content.LoremContent} mainContent={Content.LoremContent2}/>
-                </CardMapCustom1>
+                {/*    <Paragraph md={12} justify={"center"} mainTitle={Content.LoremContent} mainContent={Content.LoremContent2}/>*/}
+                {/*</CardMapCustom1>*/}
+            {/*</WidgetBox>*/}
+                <WidgetBox>
+                    <Comments2 mainContent={Content.LoremContent2}
+                               mainTitle={Content.LoremContent}>
 
+                    </Comments2>
+                </WidgetBox>
 
-                <Comments2 mainContent={Content.LoremContent2}
-                           mainTitle={Content.LoremContent}>
-                </Comments2>
-
-
-                <FormCallMeBack>
-                    <OverlayImage/>
-                    <OverlayFilling/>
-                </FormCallMeBack>
+                <WidgetBox>
+                    <FormCallMeBack>
+                        <OverlayImage/>
+                        <OverlayFilling/>
+                    </FormCallMeBack>
+                </WidgetBox>
 
                 {/*Ченджер>*/}
 
+
                 <Changer>
-                    <CardMap1>
-                        <OverlayImage/>
-                        <OverlayFilling/>
-                    </CardMap1>
+                    <WidgetBox>
+                        <CardMap1>
+                            <OverlayImage/>
+                            <OverlayFilling/>
+                        </CardMap1>
+                    </WidgetBox>
 
-                    <CardMapCustom1 sm={6} md={4} lg={4} xl={4} justify={"flex-start"} spacing={3} partPrimary={8} partSecondary={4}>
-                        <OverlayImage/>
-                        <OverlayFilling/>
-                        <Paragraph md={12} justify={"center"} mainTitle={Content.LoremContent} mainContent={Content.LoremContent2}/>
-                    </CardMapCustom1>
-
+                    <WidgetBox>
+                        <CardMapCustom1 sm={6} md={4} lg={4} xl={4} justify={"flex-start"} spacing={3} partPrimary={8} partSecondary={4}>
+                            <OverlayImage/>
+                            <OverlayFilling/>
+                            <Paragraph md={12} justify={"center"} mainTitle={Content.LoremContent} mainContent={Content.LoremContent2}/>
+                        </CardMapCustom1>
+                    </WidgetBox>
                 </Changer>
 
-                <WidgetBox>
-                    <Paragraph md={12} mainTitle={Content.LoremContent} mainContent={Content.LoremContent2}>
-                        <OverlayImage/>
-                        <OverlayFilling/>
-                    </Paragraph>
-                </WidgetBox>
+                {/*<WidgetBox>*/}
+                {/*    <Paragraph md={12} mainTitle={Content.LoremContent} mainContent={Content.LoremContent2}>*/}
+                {/*        <OverlayImage/>*/}
+                {/*        <OverlayFilling/>*/}
+                {/*    </Paragraph>*/}
+                {/*</WidgetBox>*/}
 
-                <WidgetContainer>
-                    <Paragraph md={12} mainTitle={Content.LoremContent} mainContent={Content.LoremContent2}>
-                        <OverlayImage/>
-                        <OverlayFilling/>
-                    </Paragraph>
-                </WidgetContainer>
+                {/*<WidgetContainer>*/}
+                {/*    <Paragraph md={12} mainTitle={Content.LoremContent} mainContent={Content.LoremContent2}>*/}
+                {/*        <OverlayImage/>*/}
+                {/*        <OverlayFilling/>*/}
+                {/*    </Paragraph>*/}
+                {/*</WidgetContainer>*/}
             </main>
             <Footer2/>
             {/*Хэдеры*/}

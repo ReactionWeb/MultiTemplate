@@ -1,5 +1,5 @@
 import React from 'react';
-import {Card, Container, Grid} from "@material-ui/core";
+import {Card, Container, Grid, Paper} from "@material-ui/core";
 import {componentProps} from "../ComponentInterface";
 import {useStyles} from "../Styles";
 import CardActionArea from "@material-ui/core/CardActionArea";
@@ -65,7 +65,9 @@ const CardMapCustom1 = (props: componentProps) => {
         <Container>
             <Grid container className={styles.contentTransparentBg} justify={justify}>
                 <Grid item md={partSecondary}>
-                    {props.children}
+                    <Paper>
+                        {props.children}
+                    </Paper>
                 </Grid>
                 <Grid item md={partPrimary}>
                     <Grid container spacing={spacing} className={styles.contentTransparentBg}>

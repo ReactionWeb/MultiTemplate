@@ -22,6 +22,11 @@
     <list default="true" id="1357e9ef-0aeb-4fe8-975e-3872f5925e75" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/CardMaps/CardMap1.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/CardMaps/CardMap1.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/CardMaps/CardMapCustom1.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/CardMaps/CardMapCustom1.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/CardsAbout/CardBoard1.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/CardsAbout/CardBoard1.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Comments/Comment2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Comments/Comment2.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Wrapper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Wrapper.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -169,7 +169,9 @@ const CardBoard1 = (props : componentProps) =>{
         alignItems="center"
         justify="center">
 
-            {props.children}
+            <Paper>
+                {props.children}
+            </Paper>
 
             <Grid container item xs={12} spacing={0}  >
                 {renderCards()}  
