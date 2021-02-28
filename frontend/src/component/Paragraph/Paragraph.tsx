@@ -1,5 +1,5 @@
-import React from 'react';
-import {Container, Grid, Paper} from "@material-ui/core";
+import React, {useState} from 'react';
+import {Container, Grid, Paper, Box} from "@material-ui/core";
 import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
 import {componentProps} from "../ComponentInterface";
@@ -9,9 +9,9 @@ const Paragraph = (props : componentProps) => {
     const styles = useStyles();
 
     return(
-        <Container className={styles.container}>
-            <Grid container justify={props.justify}>
-                <Paper >
+        <Container>
+            <Grid container justify={props.justify} >
+                <Paper>
                     {props.children}
                 </Paper>
                 <Grid item md={props.md} >

@@ -4,6 +4,7 @@ export interface componentProps{
     children?: React.ReactNode[] | React.ReactNode;
     mainTitle?: string;
     mainContent?: string;
+    container?: true | false;
 
     //--ГРИДЫ
     justify?: "space-around" | "space-between" | "space-evenly" | "center" | "flex-end" | "flex-start" | undefined;
@@ -25,4 +26,8 @@ export interface overlayProps extends componentProps{
 export interface inputProps{
     value: any|string;
     setValue: (value:any) => void | any;
+}
+
+export interface containerProps{
+    children?: React.ReactNode[] | React.ReactNode;
 }

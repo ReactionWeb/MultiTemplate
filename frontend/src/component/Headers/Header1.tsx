@@ -5,10 +5,11 @@ const Header1 = () => {
     return(
         <Box>
             <AppBar position="fixed">
-                <Toolbar>
+                <Toolbar color={"primary"}>
                     <Button color="inherit">Вход</Button>
                 </Toolbar>
             </AppBar>
+            <Toolbar/>
         </Box>
     )
 }

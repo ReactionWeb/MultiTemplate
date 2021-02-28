@@ -1,6 +1,7 @@
 import React from 'react';
-import {BrowserRouter, Route, Switch} from "react-router-dom";
-import {Container, Paper, Grid, Typography, Button, makeStyles, Box} from "@material-ui/core";
+import {BrowserRouter} from "react-router-dom";
+import {Box} from "@material-ui/core";
+import {ThemeProvider} from "@material-ui/core/styles";
 import Header1 from "./Headers/Header1";
 import Header2 from "./Headers/Header2";
 import Footer1 from "./Footers/Footer1";
@@ -18,8 +19,11 @@ import {useStyles} from "./Styles";
 import {Content} from "./Content";
 import Changer from "./Changer/Changer";
 
-import CarouselFirst from './Carousel/Carousel1';
-import CarouselSecond from './Carousel/Carousel2';
+// import CarouselFirst from './Carousel/Carousel1';
+// import CarouselSecond from './Carousel/Carousel2';
+//
+// import AvatarCircle from './Reviews/ReviewsPhoto';
+// import Comments from './Comments/Comment';
 
 import AvatarCircle from './Reviews/ReviewsPhoto';
 import Comments1 from './Comments/Comment1';
@@ -41,19 +45,24 @@ import CardNews1 from "./News/CardNews";
 import CardNews2 from "./News/CardNews2";
 
 
+import WidgetContainer from "./Containers/WidgetContainer";
+import WidgetBox from "./Containers/WidgetBox";
+
+import {theme} from "../theme/theme";
+
 const Wrapper = () => {
     const styles = useStyles();
     return(
         <BrowserRouter>
             <Header2/>
-            
+
             <main className={styles.container}>
-                
+
                 <OverlayImage/>
                 <OverlayFilling/>
-                
+
                 <Box className={styles.container}>
-                   
+
                     <OverlayImage/>
                     {/*<OverlayFilling/>*/}
                     <OverlayGradient/>
@@ -61,9 +70,9 @@ const Wrapper = () => {
                     <Paragraph md={6} justify={"flex-end"} mainTitle={Content.LoremContent} mainContent={Content.LoremContent2}/>
                 </Box>
 
-                
 
-                <Paragraph2  alignItems={"flex-end"} md={6} spacing={10}  justify={"flex-start"} mainTitle={Content.LoremContent} mainContent={Content.LoremContent3}> 
+
+                <Paragraph2  alignItems={"flex-end"} md={6} spacing={10}  justify={"flex-start"} mainTitle={Content.LoremContent} mainContent={Content.LoremContent3}>
                 <OverlayImage/>
                 </Paragraph2>
                 <Paragraph2 alignItems={"flex-start"} md={8} spacing={10} justify={"flex-end"} mainTitle={Content.LoremContent} mainContent={Content.LoremContent2}/>
@@ -80,14 +89,15 @@ const Wrapper = () => {
                     <OverlayImage/>
                     <OverlayFilling/>
                     <Paragraph md={12} justify={"center"} mainTitle={Content.LoremContent} mainContent={Content.LoremContent2}/>
-                    
                 </CardMapCustom1>
                 <Comments2 mainContent={Content.LoremContent2} mainTitle={Content.LoremContent} />
                 <FormCallMeBack>
                     <OverlayImage/>
                     <OverlayFilling/>
                 </FormCallMeBack>
-                {/*<FormCallMeBack/>*/}
+
+                {/*Ченджер>*/}
+
                 <Changer>
                     <CardMap1>
                         <OverlayImage/>
@@ -102,14 +112,25 @@ const Wrapper = () => {
 
                 </Changer>
 
-                
-            
+                <WidgetBox>
+                    <Paragraph md={12} mainTitle={Content.LoremContent} mainContent={Content.LoremContent2}>
+                        <OverlayImage/>
+                        <OverlayFilling/>
+                    </Paragraph>
+                </WidgetBox>
+
+                <WidgetContainer>
+                    <Paragraph md={12} mainTitle={Content.LoremContent} mainContent={Content.LoremContent2}>
+                        <OverlayImage/>
+                        <OverlayFilling/>
+                    </Paragraph>
+                </WidgetContainer>
             </main>
             <Footer2/>
             {/*Хэдеры*/}
             {/*Виджеты*/}
             {/*Карусели*/}
-           
+
         </BrowserRouter>
     )
 }
