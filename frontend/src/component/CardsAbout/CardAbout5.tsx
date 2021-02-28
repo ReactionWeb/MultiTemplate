@@ -14,7 +14,7 @@ const CardAbout5 = (props : componentProps) => {
 
     return(
         
-        <Container className={styles.container}> 
+        <Container>
         <Grid
         container
         direction="row"

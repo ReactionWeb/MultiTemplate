@@ -77,7 +77,7 @@ const CardAbout4 = (props : componentProps) =>{
 }
   return (
 
-    <Container className={styles.container}> 
+    <Container>
         <Grid
         container
         alignItems="center"

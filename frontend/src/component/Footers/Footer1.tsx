@@ -23,11 +23,11 @@ const Footer1 = () =>{
     const styles = useStyles();
     return(
         <footer className={styles.footer1}>
-        <Container maxWidth="sm">
-          <Typography variant="body1">My sticky footer can be found here.</Typography>
-          <Copyright />
-        </Container>
-      </footer>
+            <Container maxWidth="sm">
+              <Typography variant="body1">My sticky footer can be found here.</Typography>
+              <Copyright />
+            </Container>
+        </footer>
     )
 }
 

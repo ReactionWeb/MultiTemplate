@@ -42,7 +42,7 @@ const CardNews1 = (props: componentProps) => {
     }
 
     return(
-        <Container className={styles.container}>
+        <Container>
             
             <Grid container className={styles.contentTransparentBg} >
             <Typography gutterBottom variant="h4" component="h2">

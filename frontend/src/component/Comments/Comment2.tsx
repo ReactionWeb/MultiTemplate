@@ -56,7 +56,7 @@ const imgLink =
 
 
     return (
-      <Container className={styles.container}> 
+      <Container>
       <Typography variant="h2" gutterBottom  align='center' >
         
           {props.mainTitle}

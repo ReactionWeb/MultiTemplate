@@ -19,7 +19,7 @@ const CardNews2 = (props: componentProps) => {
     const styles = useStyles();
    
     return(
-        <Container className={styles.container}>
+        <Container>
             
             <Grid container item md spacing={props.spacing} className={styles.contentTransparentBg} alignItems={"stretch"} >
             

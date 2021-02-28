@@ -17,7 +17,7 @@ const imgLink =
 
 
 
-const CardAbout4 = (props : componentProps) =>{
+const CardBoard1 = (props : componentProps) =>{
   const styles = useStyles();
   let arr = [2,3,1,2,2,3,3,2];
 
@@ -163,13 +163,14 @@ const CardAbout4 = (props : componentProps) =>{
 }
   return (
 
-    <Container className={styles.container}> 
+    <Container>
         <Grid
         container
         alignItems="center"
-        justify="center"
-        
-        >
+        justify="center">
+
+            {props.children}
+
             <Grid container item xs={12} spacing={0}  >
                 {renderCards()}  
             </Grid> 
@@ -179,4 +180,4 @@ const CardAbout4 = (props : componentProps) =>{
   );
 }
 
-export default CardAbout4;
+export default CardBoard1;

@@ -36,7 +36,7 @@ import CardAbout2 from './CardsAbout/CardAbout2';
 import CardAbout3 from './CardsAbout/CardAbout3';
 import CardAbout4 from './CardsAbout/CardAbout4';
 import CardAbout5 from './CardsAbout/CardAbout5';
-import Card from './CardsAbout/CArd';
+import CardBoard1 from './CardsAbout/CardBoard1';
 
 import Paragraph2 from "./Paragraph/Paragraph2";
 import SignInSide from "./logIn/LoginSide";
@@ -57,29 +57,52 @@ const Wrapper = () => {
             <Header2/>
 
             <main className={styles.container}>
-
-                <OverlayImage/>
                 <OverlayFilling/>
 
-                <Box className={styles.container}>
+                <WidgetBox>
+                    <Paragraph md={6}
+                               justify={"flex-start"}
+                               mainTitle={Content.LoremContent}
+                               mainContent={Content.LoremContent2}>
+                        <OverlayImage/>
+                        <OverlayGradient/>
+                    </Paragraph>
+                </WidgetBox>
 
-                    <OverlayImage/>
-                    {/*<OverlayFilling/>*/}
-                    <OverlayGradient/>
-                    <Paragraph md={6} justify={"flex-start"} mainTitle={Content.LoremContent} mainContent={Content.LoremContent2}/>
-                    <Paragraph md={6} justify={"flex-end"} mainTitle={Content.LoremContent} mainContent={Content.LoremContent2}/>
-                </Box>
+                <WidgetBox>
+                    <Paragraph2  alignItems={"flex-end"}
+                                 md={8} spacing={10}
+                                 justify={"flex-end"}
+                                 mainTitle={Content.LoremContent}
+                                 mainContent={Content.LoremContent3}>
+                        <OverlayImage/>
+                        <OverlayFilling/>
+                    </Paragraph2>
+                </WidgetBox>
+
+                <WidgetBox>
+                    <CardBoard1  mainTitle={Content.LoremContent}
+                           mainContent={Content.LoremContent2}>
+                        <OverlayImage/>
+                    </CardBoard1>
+                </WidgetBox>
 
 
 
-                <Paragraph2  alignItems={"flex-end"} md={6} spacing={10}  justify={"flex-start"} mainTitle={Content.LoremContent} mainContent={Content.LoremContent3}>
-                <OverlayImage/>
-                </Paragraph2>
-                <Paragraph2 alignItems={"flex-start"} md={8} spacing={10} justify={"flex-end"} mainTitle={Content.LoremContent} mainContent={Content.LoremContent2}/>
-
-                <Card  mainTitle={Content.LoremContent} mainContent={Content.LoremContent3}/>
                 {/*<CardNews2 md={6} spacing={2} mainTitle={Content.LoremContent} mainContent={Content.LoremContent3}/>*/}
-                <CardAbout5 mainTitle={Content.LoremContent} mainContent={Content.LoremContent3}/>
+                <CardAbout1 mainTitle={Content.LoremContent}
+                            mainContent={Content.LoremContent3}>
+                </CardAbout1>
+                <CardAbout2 mainTitle={Content.LoremContent}
+                            mainContent={Content.LoremContent3}>
+                </CardAbout2>
+                <CardAbout3 mainTitle={Content.LoremContent}
+                            mainContent={Content.LoremContent3}>
+                </CardAbout3>
+
+                <CardAbout5 mainTitle={Content.LoremContent}
+                            mainContent={Content.LoremContent3}>
+                </CardAbout5>
 
                 {/*<CardMap1>*/}
                 {/*    <OverlayImage/>*/}
@@ -90,7 +113,13 @@ const Wrapper = () => {
                     <OverlayFilling/>
                     <Paragraph md={12} justify={"center"} mainTitle={Content.LoremContent} mainContent={Content.LoremContent2}/>
                 </CardMapCustom1>
-                <Comments2 mainContent={Content.LoremContent2} mainTitle={Content.LoremContent} />
+
+
+                <Comments2 mainContent={Content.LoremContent2}
+                           mainTitle={Content.LoremContent}>
+                </Comments2>
+
+
                 <FormCallMeBack>
                     <OverlayImage/>
                     <OverlayFilling/>

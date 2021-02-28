@@ -56,7 +56,7 @@ const CardMap1 = (props: componentProps) => {
 
 
     return(
-        <Container className={styles.container}>
+        <Container>
             <Paper>
                 {props.children}
                 <Grid container spacing={3} className={styles.contentTransparentBg}>

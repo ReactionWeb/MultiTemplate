@@ -19,7 +19,7 @@ const Changer = (props:componentProps) => {
     }
 
     return(
-        <Container className={styles.container}>
+        <Container>
             <Box zIndex={"modal"} style={{position:"absolute"}}>
                 <Button onClick={changerHandler} className={styles.contentTransparentBg} style={{padding:"3px"}}>
                     <AccessibleForward   fontSize="large"/>

@@ -20,17 +20,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1357e9ef-0aeb-4fe8-975e-3872f5925e75" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/component/Containers/WidgetBox.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/component/Containers/WidgetContainer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/theme/theme.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/component/Carousel/Carousel1.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Carousel/Carousel1.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/component/Carousel/Carousel2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Carousel/Carousel2.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/component/ComponentInterface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/ComponentInterface.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/component/Headers/Header1.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Headers/Header1.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/component/Paragraph/Paragraph.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Paragraph/Paragraph.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/CardMaps/CardMap1.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/CardMaps/CardMap1.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/CardMaps/CardMapCustom1.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/CardMaps/CardMapCustom1.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/CardsAbout/CArd.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/CardsAbout/CardBoard1.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/CardsAbout/CardAbout1.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/CardsAbout/CardAbout1.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/CardsAbout/CardAbout2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/CardsAbout/CardAbout2.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/CardsAbout/CardAbout3.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/CardsAbout/CardAbout3.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/CardsAbout/CardAbout4.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/CardsAbout/CardAbout4.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/CardsAbout/CardAbout5.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/CardsAbout/CardAbout5.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Changer/BoxContainer.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Changer/Changer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Changer/Changer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Changer/DefaultContainer.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Comments/Comment1.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Comments/Comment1.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Comments/Comment2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Comments/Comment2.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Comments/Comment3.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Comments/Comment3.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Footers/Footer1.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Footers/Footer1.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Forms/FormCallMeBack.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Forms/FormCallMeBack.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/News/CardNews.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/News/CardNews.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/News/CardNews2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/News/CardNews2.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Paragraph/Paragraph2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Paragraph/Paragraph2.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Styles.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/component/Wrapper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Wrapper.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/theme/theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/theme/theme.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +105,7 @@
       <workItem from="1612100413536" duration="6105000" />
       <workItem from="1614431151872" duration="4000" />
       <workItem from="1614431620755" duration="6421000" />
+      <workItem from="1614524194263" duration="6049000" />
     </task>
     <servers />
   </component>
@@ -118,5 +133,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1612903587987" />
+    <state x="203" y="68" key="MergeDialog" timestamp="1614515377340">
+      <screen x="64" y="0" width="1472" height="864" />
+    </state>
+    <state x="203" y="68" key="MergeDialog/64.0.1472.864@64.0.1472.864" timestamp="1614515377340" />
+    <state x="438" y="193" key="MultipleFileMergeDialog" timestamp="1614515395099">
+      <screen x="64" y="0" width="1472" height="864" />
+    </state>
+    <state x="438" y="193" key="MultipleFileMergeDialog/64.0.1472.864@64.0.1472.864" timestamp="1614515395099" />
   </component>
 </project>

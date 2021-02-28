@@ -74,9 +74,10 @@ export const useStyles = makeStyles((theme)=>({
         bottom: 0,
         right: 0,
         left: 0,
-        background: 'linear-gradient( 45deg, rgba(0,0,0,0.5) 49% , 50% ,rgba(0,0,0,0) 51%)',
+        background: 'linear-gradient( 45deg, rgba(0,0,0,0.5) 59% , 40% ,rgba(0,0,0,0) 51%)',
         borderRadius: "inherit",
     },
+
     overlayImage:{
         position: "absolute",
         top: 0,
@@ -87,7 +88,8 @@ export const useStyles = makeStyles((theme)=>({
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
-        backgroundImage: `url(${img1})`,
+        backgroundImage: `url(https://picsum.photos/1920/500)`,
+        // backgroundImage: `url(${img1})`,
     },
     overlayTriangleImage:{
 
@@ -95,7 +97,6 @@ export const useStyles = makeStyles((theme)=>({
     container :{
         position: 'relative',
         color: theme.palette.common.white,
-        marginBottom: theme.spacing(4),
         backgroundSize:"cover",
         backgroundRepeat:"no-repeat",
         backgroundPosition:"center",

@@ -14,7 +14,7 @@ const FormCallMeBack = (props:componentProps) => {
     let [message, setMessage] = useState('Message');
 
     return(
-        <Container className={styles.container}>
+        <Container>
                 {props.children}
                 <Card>
                     <CardContent>
