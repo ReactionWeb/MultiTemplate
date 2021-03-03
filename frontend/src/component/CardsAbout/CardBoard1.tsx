@@ -11,6 +11,7 @@ import { Avatar, Grid, Paper,  Container, GridDirection, PropTypes } from "@mate
 import {useStyles} from "../Styles";
 import {componentProps} from "../ComponentInterface";
 import { TypeBackground } from '@material-ui/core/styles/createPalette';
+import {theme} from "../../theme/theme";
 /* tslint:disable */
 const imgLink =
   "https://picsum.photos/200/300";
@@ -21,147 +22,69 @@ const CardBoard1 = (props : componentProps) =>{
   const styles = useStyles();
   let arr = [2,3,1,2,2,3,3,2];
 
-  const BlueCard = () =>{
-      return(
-        <Grid item xs={6} >
-        <Card className={styles.rotation} style={{backgroundColor:"#3f51b5" }} > {/* светлое*/}
-                   <CardActionArea>
-                     
-                       <CardContent>
-                           <Typography gutterBottom variant="h4" component="h2">
-                               Lizard
-                           </Typography>
-                           <Typography variant="body2" color="textSecondary" component="p">
-                               Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                               across all continents except Antarctica
-                           </Typography>
-                       </CardContent>
-                   </CardActionArea>
-               </Card>
-       </Grid>
+  const VarDark = () => {
+      return (
+          <Grid item xs={6} >
+              <Card className={styles.rotation} color={theme.palette.primary.dark} >
+                  <CardActionArea>
+
+                      <CardContent style={{backgroundColor: theme.palette.primary.dark}}>
+                          <Typography gutterBottom variant="h4" component="h2">
+                              Lizard
+                          </Typography>
+                          <Typography variant="body2" color="textSecondary" component="p">
+                              Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
+                              across all continents except Antarctica
+                          </Typography>
+                      </CardContent>
+                  </CardActionArea>
+              </Card>
+          </Grid>
       )
   }
 
-  
-  const DarkBlueCard = () =>{
-    return(
-      <Grid item xs={6} >
-      <Card className={styles.rotation} style={{backgroundColor:"#283593" }} > {/*темное*/}
-                 <CardActionArea>
-                   
-                     <CardContent>
-                         <Typography gutterBottom variant="h4" component="h2">
-                             Lizard
-                         </Typography>
-                         <Typography variant="body2" color="textSecondary" component="p">
-                             Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                             across all continents except Antarctica
-                         </Typography>
-                     </CardContent>
-                 </CardActionArea>
-             </Card>
-     </Grid>
-    )
-}
-
+  const VarLight = () => {
+      return(
+          <Grid item xs={6} >
+              <Card className={styles.rotation}>
+                  <CardActionArea>
+                      <CardContent style={{backgroundColor: theme.palette.primary.light}}>
+                          <Typography gutterBottom variant="h4" component="h2">
+                              Lizard
+                          </Typography>
+                          <Typography variant="body2" color="textSecondary" component="p">
+                              Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
+                              across all continents except Antarctica
+                          </Typography>
+                      </CardContent>
+                  </CardActionArea>
+              </Card>
+          </Grid>
+      )
+  }
 
   const renderCards = () => {
-    
+        let prev = true;
+        let now = false;
     return(
-       arr.map((item,index)=>{
-        let changeColor:"#3f51b5" | "#283593" = (index%2 === 0 )?  "#3f51b5": "#283593"
-        let nomerstr= Math.round((index+1)/2);
-        
+       arr.map(()=>{
 
-        if (index%2 === 0 && nomerstr%2 === 0){
+        if (now != prev){
+            prev = now;
+        }else{
+            now = !now;
+        }
+           if(now){
+               return(<VarDark/>);
+           }else {
+               return(<VarLight/>);
+           }
 
-         return(
-            <Grid item xs={6} >
-             <Card className={styles.rotation} style={{backgroundColor:"#3f51b5" }} > {/* светлое*/}
-                        <CardActionArea>
-                          
-                            <CardContent>
-                                <Typography gutterBottom variant="h4" component="h2">
-                                    Lizard
-                                </Typography>
-                                <Typography variant="body2" color="textSecondary" component="p">
-                                    Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                                    across all continents except Antarctica
-                                </Typography>
-                            </CardContent>
-                        </CardActionArea>
-                    </Card>
-            </Grid>
-            
-       )}
-       if(index%2 !== 0 && nomerstr%2 === 0)  {
-           return(
-        <Grid item xs={6} >
-         <Card className={styles.rotation} style={{backgroundColor:"#283593" }}>{/* темное*/}
-                    <CardActionArea>
-                      
-                        <CardContent>
-                            <Typography gutterBottom variant="h4" component="h2">
-                                Lizard
-                            </Typography>
-                            <Typography variant="body2" color="textSecondary" component="p">
-                                Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                                across all continents except Antarctica
-                            </Typography>
-                        </CardContent>
-                    </CardActionArea>
-                </Card>
-        </Grid>
-        
-                    )
+       }))
+    }
 
-                                            }
-       if (index%2 === 0 && nomerstr%2 !== 0){
 
-        return(
-           <Grid item xs={6} >
-            <Card className={styles.rotation} style={{backgroundColor:"#283593" }} >{/* темное*/}
-                       <CardActionArea>
-                         
-                           <CardContent>
-                               <Typography gutterBottom variant="h4" component="h2">
-                                   Lizard
-                               </Typography>
-                               <Typography variant="body2" color="textSecondary" component="p">
-                                   Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                                   across all continents except Antarctica
-                               </Typography>
-                           </CardContent>
-                       </CardActionArea>
-                   </Card>
-           </Grid>
-           
-      )}
-      if (index%2 !== 0 && nomerstr%2 !== 0){
-
-        return(
-           <Grid item xs={6} >
-            <Card className={styles.rotation} style={{backgroundColor:"#3f51b5" }} > {/* светлое*/}
-                       <CardActionArea>
-                         
-                           <CardContent>
-                               <Typography gutterBottom variant="h4" component="h2">
-                                   Lizard
-                               </Typography>
-                               <Typography variant="body2" color="textSecondary" component="p">
-                                   Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                                   across all continents except Antarctica
-                               </Typography>
-                           </CardContent>
-                       </CardActionArea>
-                   </Card>
-           </Grid>
-           
-      )}
-            })
-       )
-}
-  return (
+    return (
 
     <Container>
         <Grid
@@ -174,10 +97,10 @@ const CardBoard1 = (props : componentProps) =>{
             </Paper>
 
             <Grid container item xs={12} spacing={0}  >
-                {renderCards()}  
-            </Grid> 
+                {renderCards()}
+            </Grid>
         </Grid>
-        
+
    </Container>
   );
 }

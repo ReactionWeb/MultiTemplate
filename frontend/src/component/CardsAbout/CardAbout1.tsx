@@ -48,6 +48,9 @@ const CardAbout1 = (props : componentProps) =>{
   return (
 
     <Container>
+        <Paper>
+            {props.children}
+        </Paper>
         <Grid
         container
         alignItems="center"

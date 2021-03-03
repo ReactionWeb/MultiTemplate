@@ -15,14 +15,12 @@ const CardAbout5 = (props : componentProps) => {
     return(
         
         <Container>
-        <Grid
-        container
-        direction="row"
-        alignItems={props.alignItems}
-        justify={props.justify}
-        >
+            <Paper>
+                {props.children}
+            </Paper>
+            <Grid container direction="row" alignItems={props.alignItems} justify={props.justify}>
             
-            <Grid container item md={6} spacing={props.spacing} >
+                <Grid container item md={6} spacing={props.spacing} >
                 {/*renderParagraph()*/}
                 <Grid item  >
            
@@ -40,12 +38,12 @@ const CardAbout5 = (props : componentProps) => {
             
                 </Grid>
                 
-            </Grid> 
-            <Grid item md={3}>
-            <img src={imgLink}/>
-            </Grid>
+                </Grid>
+                <Grid item md={3}>
+                <img src={imgLink}/>
+                </Grid>
         </Grid>
-        
+
    </Container>
     
     ) 

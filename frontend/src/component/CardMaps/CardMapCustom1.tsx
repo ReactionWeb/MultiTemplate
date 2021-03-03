@@ -28,7 +28,7 @@ const CardMapCustom1 = (props: componentProps) => {
         return(
             arr.map((item)=>(
                 <Grid item key={item} sm={sm} md={md} lg={lg} xl={xl}>
-                    <Card className={styles.rotation}>
+                    <Card >
                         <CardActionArea>
                             <CardMedia
                                 component="img"
