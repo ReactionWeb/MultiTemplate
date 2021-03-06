@@ -10,7 +10,16 @@ const TextInput = (props:inputProps) => {
     }
 
     return(
-        <TextField variant={"filled"} fullWidth label={"Сообщение"} onChange={clientMessageHandler} multiline rows={7} value={props.value}/>
+        <TextField color={"primary"}
+                   variant={"filled"}
+                   fullWidth
+                   label={"Сообщение"}
+                   onChange={clientMessageHandler}
+                   multiline
+                   rows={7}
+                   value={props.value}
+                   InputLabelProps={{style:{ color:"#000"}}}
+        />
     )
 }
 export default TextInput;

@@ -11,7 +11,7 @@ import { Avatar, Grid, Paper,  Container, GridDirection, PropTypes } from "@mate
 import {useStyles} from "../Styles";
 import {componentProps} from "../ComponentInterface";
 import { TypeBackground } from '@material-ui/core/styles/createPalette';
-import {theme} from "../../theme/theme";
+import {custom_theme} from "../../theme/custom_theme"
 /* tslint:disable */
 const imgLink =
   "https://picsum.photos/200/300";
@@ -24,15 +24,14 @@ const CardBoard1 = (props : componentProps) =>{
 
   const VarDark = () => {
       return (
-          <Grid item xs={6} >
-              <Card className={styles.rotation} color={theme.palette.primary.dark} >
+          <Grid item xs={6}>
+              <Card className={styles.rotation} style={{backgroundColor:custom_theme.palette.primary.dark }}>
                   <CardActionArea>
-
-                      <CardContent style={{backgroundColor: theme.palette.primary.dark}}>
-                          <Typography gutterBottom variant="h4" component="h2">
+                      <CardContent>
+                          <Typography gutterBottom variant="h4" component="h2" color={"textSecondary"}>
                               Lizard
                           </Typography>
-                          <Typography variant="body2" color="textSecondary" component="p">
+                          <Typography variant="body2" component="p" color={"textSecondary"}>
                               Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
                               across all continents except Antarctica
                           </Typography>
@@ -46,13 +45,13 @@ const CardBoard1 = (props : componentProps) =>{
   const VarLight = () => {
       return(
           <Grid item xs={6} >
-              <Card className={styles.rotation}>
+              <Card className={styles.rotation} style={{backgroundColor:custom_theme.palette.primary.light}}>
                   <CardActionArea>
-                      <CardContent style={{backgroundColor: theme.palette.primary.light}}>
-                          <Typography gutterBottom variant="h4" component="h2">
+                      <CardContent>
+                          <Typography gutterBottom variant="h4" component="h2" color={"textSecondary"}>
                               Lizard
                           </Typography>
-                          <Typography variant="body2" color="textSecondary" component="p">
+                          <Typography variant="body2" component="p" color={"textSecondary"}>
                               Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
                               across all continents except Antarctica
                           </Typography>

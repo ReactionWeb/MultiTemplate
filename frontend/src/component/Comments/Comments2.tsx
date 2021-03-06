@@ -57,10 +57,11 @@ const imgLink =
 
     return (
       <Container>
+          <Paper>
+              {props.children}
+          </Paper>
           <Typography variant="h2" gutterBottom  align='center' >
-
               {props.mainTitle}
-
           </Typography>
         {renderCards()}
       </Container>

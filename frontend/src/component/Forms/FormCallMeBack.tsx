@@ -16,7 +16,7 @@ const FormCallMeBack = (props:componentProps) => {
     return(
         <Container>
                 {props.children}
-                <Card>
+                <Card> {/*style={{backgroundColor:"transparent"}}*/}
                     <CardContent>
                         <Grid container justify={"center"}>
                             <Grid>

@@ -10,7 +10,14 @@ const NameInput = (props:inputProps) => {
     }
 
     return(
-        <TextField variant={"filled"} fullWidth label={"Имя"} onChange={clientNameHandler} defaultValue={""} value={props.value}/>
+        <TextField color={"primary"}
+                   variant={"filled"}
+                   fullWidth label={"Имя"}
+                   onChange={clientNameHandler}
+                   defaultValue={""}
+                   value={props.value}
+                   InputLabelProps={{style:{ color:"#000"}}}
+        />
     )
 }
 export default NameInput;

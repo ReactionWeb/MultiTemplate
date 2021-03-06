@@ -30,7 +30,7 @@ const Paragraph2 = (props : componentProps) => {
                             <Typography variant="h6" paragraph>
                                 {props.mainContent}
                             </Typography>
-                            <Button variant={"contained"} color={"secondary"}>
+                            <Button variant={"contained"} color={"primary"}>
                                 More
                             </Button>
 

@@ -15,7 +15,15 @@ const PhoneInput = (props:inputProps) => {
     }
 
     return(
-        <TextField variant={"filled"} fullWidth label={"Номер телефона"} onChange={phoneNumberHandler} defaultValue={"+7"} value={props.value}/>
+        <TextField color={"primary"}
+                   variant={"filled"}
+                   fullWidth
+                   label={"Номер телефона"}
+                   onChange={phoneNumberHandler}
+                   defaultValue={"+7"}
+                   value={props.value}
+                   InputLabelProps={{style:{ color:"#000"}}}
+        />
     )
 }
 export default PhoneInput;

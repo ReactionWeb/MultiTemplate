@@ -20,13 +20,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1357e9ef-0aeb-4fe8-975e-3872f5925e75" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/src/component/Overlays/OverlayGradientLight.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/component/Overlays/OverlayGradientTransparent.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/component/CardMaps/CardMap1.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/CardMaps/CardMap1.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/component/CardMaps/CardMapCustom1.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/CardMaps/CardMapCustom1.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/component/CardsAbout/CardBoard1.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/CardsAbout/CardBoard1.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/component/Comments/Comment2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Comments/Comment2.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Comments/Comment1.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Comments/Comments1.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Comments/Comment2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Comments/Comments2.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Comments/Comment3.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Comments/Comments3.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Footers/Footer1.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Footers/Footer1.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Footers/Footer2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Footers/Footer2.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Forms/FormCallMeBack.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Forms/FormCallMeBack.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Headers/Header1.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Headers/Header1.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Headers/Header2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Headers/Header2.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Inputs/NameInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Inputs/NameInput.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Inputs/PhoneInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Inputs/PhoneInput.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Inputs/TextInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Inputs/TextInput.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Overlays/OverlayGradient.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Overlays/OverlayGradientDark.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Paragraph/Paragraph.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Paragraph/Paragraph.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Paragraph/Paragraph2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Paragraph/Paragraph2.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Styles.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/component/Wrapper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Wrapper.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/theme/theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/theme/custom_theme.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,17 +77,17 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\GitHub\MultiTemplate\backend\src" />
-      <recent name="D:\GitHub\MultiTemplate\frontend\src\static\images" />
-      <recent name="D:\GitHub\MultiTemplate\frontend\src\component" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\GitHub\MultiTemplate\frontend\src\component\Overlays" />
       <recent name="D:\GitHub\MultiTemplate\frontend\src\component\Containers" />
       <recent name="D:\GitHub\MultiTemplate\frontend\src\component\Container" />
       <recent name="D:\GitHub\MultiTemplate\backend\src\messenger" />
       <recent name="D:\GitHub\MultiTemplate\frontend\src\component\Preface" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitHub\MultiTemplate\backend\src" />
+      <recent name="D:\GitHub\MultiTemplate\frontend\src\static\images" />
+      <recent name="D:\GitHub\MultiTemplate\frontend\src\component" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -88,6 +105,7 @@
       <workItem from="1614431151872" duration="4000" />
       <workItem from="1614431620755" duration="6421000" />
       <workItem from="1614524194263" duration="6563000" />
+      <workItem from="1615039438579" duration="9021000" />
     </task>
     <servers />
   </component>
@@ -123,5 +141,9 @@
       <screen x="64" y="0" width="1472" height="864" />
     </state>
     <state x="438" y="193" key="MultipleFileMergeDialog/64.0.1472.864@64.0.1472.864" timestamp="1614531318116" />
+    <state x="457" y="197" key="run.anything.popup" timestamp="1615043808034">
+      <screen x="64" y="0" width="1472" height="864" />
+    </state>
+    <state x="457" y="197" key="run.anything.popup/64.0.1472.864@64.0.1472.864" timestamp="1615043808034" />
   </component>
 </project>
