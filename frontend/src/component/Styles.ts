@@ -3,6 +3,11 @@ import img1 from "../static/images/img1.jpg";
 
 export const useStyles = makeStyles((theme)=>({
 
+
+    frameMap:{
+      position: 'absolute'
+    
+    },
     avatarLarge: {
         width: theme.spacing(20),
         height: theme.spacing(20),

@@ -6,12 +6,14 @@ import {componentProps} from "../ComponentInterface";
 import PhoneInput from "../Inputs/PhoneInput"
 import NameInput from "../Inputs/NameInput";
 import TextInput from "../Inputs/TextInput";
+import EmailInput from "../Inputs/EmailInput";
 
-const FormCallMeBack = (props:componentProps) => {
+const FormCallMeBackSecond = (props:componentProps) => {
     let styles = useStyles();
     let [number, setNumber] = useState('+7');
     let [name, setName] = useState('');
     let [message, setMessage] = useState('Message');
+    let [email, setEmail] = useState('Email')
 
     return(
         <Container>
@@ -25,20 +27,23 @@ const FormCallMeBack = (props:componentProps) => {
                                 </Box>
                             </Grid>
                         </Grid>
-                        <Grid container spacing={2} className={styles.contentWhiteBg}>
-                                <Grid item md={4} sm={12} xs={12}>
+                        <Grid container spacing={2} className={styles.contentWhiteBg} justify="space-evenly">
+                                <Grid item md={4} sm={12} xs={12} >
+                                    <NameInput value={name} setValue={setName}/>
+                                    <br className={styles.lineSpacing}/>
                                     <PhoneInput value={number} setValue={setNumber}/>
                                     <br className={styles.lineSpacing}/>
-                                    <NameInput value={name} setValue={setName}/>
+                                    <EmailInput value={email} setValue={setEmail}/>
                                 </Grid>
-                                <Grid item md={8} sm={12} xs={12}>
-                                    <TextInput value={message} setValue={setMessage}/>
+                                <Grid item md={6} sm={12} xs={12} >
+                                    <TextInput value={message} setValue={setMessage} rows={10}/>
                                 </Grid>
-                        </Grid>
-                        <Grid container justify={"center"} className={styles.lineSpacing} >
+                                <Grid container justify={"center"} className={styles.lineSpacing}>
                             <Grid item>
                                 <Button variant={"contained"} color={"secondary"}>Send message</Button>
                             </Grid>
+                        </Grid>
+                        
                         </Grid>
                     </CardContent>
                 </Card>
@@ -46,4 +51,4 @@ const FormCallMeBack = (props:componentProps) => {
     )
 }
 
-export default FormCallMeBack;
+export default FormCallMeBackSecond;

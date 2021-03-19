@@ -52,8 +52,11 @@ const imgLink =
 
 
     return (
-      <Container>
-      <Typography variant="h2" gutterBottom  align='center' >
+      <Container >
+        <Paper>
+            {props.children}
+        </Paper>
+      <Typography variant="h2" gutterBottom  align='center'  >
         
           {props.mainTitle}
 

@@ -24,7 +24,7 @@ const imgLink =
            return(
           
            
-          <Grid container   spacing={1} direction={changeRow} justify="center" alignItems="center"   md={12}  >
+          <Grid container   spacing={1} direction={changeRow} justify="center" alignItems="center"   md={12} className={styles.contentTransparentBg} >
 
           <Grid item md={2}>
                 <Avatar className={styles.avatarLarge} alt="Remy Sharp" src={imgLink} />
@@ -55,8 +55,11 @@ const imgLink =
 
 
     return (
-      <Container>
-      <Typography variant="h2" gutterBottom  align='center' >
+      <Container >
+        <Paper>
+              {props.children}
+        </Paper>
+      <Typography variant="h2" gutterBottom  align='center'  >
         
           {props.mainTitle}
 

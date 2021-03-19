@@ -48,11 +48,7 @@ const CardAbout2 = (props : componentProps) =>{
         <Paper>
             {props.children}
         </Paper>
-        <Grid
-        container
-        alignItems="center"
-       
-        >
+        <Grid container alignItems="center" className={styles.contentTransparentBg} >
             <Grid container xs={12} spacing={2} alignItems="center">
                 {renderCards()}  
             </Grid> 

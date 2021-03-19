@@ -10,69 +10,43 @@ import Typography from '@material-ui/core/Typography';
 import { Avatar, Grid, Paper,  Container, GridDirection, PropTypes } from "@material-ui/core";
 import {useStyles} from "../Styles";
 import {componentProps} from "../ComponentInterface";
-import { TypeBackground } from '@material-ui/core/styles/createPalette';
-/* tslint:disable */
+
 const imgLink =
-  "https://picsum.photos/200/300";
+  "https://picsum.photos/500/300";
 
 
 
-const CardAbout4 = (props : componentProps) =>{
+const CardAbout3 = (props : componentProps) =>{
   const styles = useStyles();
-  let arr = [2,3,1,2,2,3,3,2];
+  let arr = [1,2];
 
   const renderCards = () => {
     
     return(
-       arr.map((item,index)=>{
-        let changeColor:"#3f51b5" | "#283593" = (index%2 === 0 )?  "#3f51b5": "#283593"
-        
-        
-
-        if (item%2 === 0 ){
-
+       arr.map(()=>{
          return(
-            <Grid item xs={6} >
-             <Card className={styles.rotation} style={{backgroundColor:"#3f51b5" }} >
-                        <CardActionArea>
-                          
-                            <CardContent>
-                                <Typography gutterBottom variant="h4" component="h2">
-                                    Lizard
-                                </Typography>
-                                <Typography variant="body2" color="textSecondary" component="p">
-                                    Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                                    across all continents except Antarctica
-                                </Typography>
-                            </CardContent>
-                        </CardActionArea>
-                    </Card>
-            </Grid>
-            
-       )}
-       else  {
-           return(
-        <Grid item xs={6} >
-         <Card className={styles.rotation} style={{backgroundColor:"#283593" }}>
-                    <CardActionArea>
-                      
-                        <CardContent>
-                            <Typography gutterBottom variant="h4" component="h2">
-                                Lizard
-                            </Typography>
-                            <Typography variant="body2" color="textSecondary" component="p">
-                                Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                                across all continents except Antarctica
-                            </Typography>
-                        </CardContent>
-                    </CardActionArea>
-                </Card>
-        </Grid>
-        
-   )
+                <Grid  item md={6} >
+                    <Paper  elevation={10} square={true}  style={{ padding: "20px 20px", margin: 20, textAlign: 'center', }}>
 
-       }
-    })
+                    <Grid item md={3} style={{backgroundImage:'url(https://picsum.photos/1920/500)'}}>
+                    {/*<img src={imgLink}/>**/}
+                    </Grid>
+                        
+                            <Typography variant="h5" gutterBottom  align='center' >
+
+                                        {props.mainTitle}
+
+                            </Typography>
+
+                            <Typography variant="body1" paragraph>
+
+                                            {props.mainContent}
+
+                            </Typography>
+                    </Paper>
+
+                </Grid>
+       )})
        )
 }
   return (
@@ -81,19 +55,14 @@ const CardAbout4 = (props : componentProps) =>{
         <Paper>
             {props.children}
         </Paper>
-        <Grid
-        container
-        alignItems="center"
-        justify="center"
-        
-        >
-            <Grid container item xs={12} spacing={0}  >
+        <Grid container item xs={12} spacing={2}  alignItems={"stretch"} className={styles.contentTransparentBg} >
+           
                 {renderCards()}  
-            </Grid> 
+         
         </Grid>
         
    </Container>
   );
 }
 
-export default CardAbout4;
+export default CardAbout3;

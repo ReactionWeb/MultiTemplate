@@ -57,7 +57,10 @@ const imgLink =
 
     return (
       <Container>
-          <Typography variant="h2" gutterBottom  align='center' >
+        <Paper>
+            {props.children}
+        </Paper>
+          <Typography variant="h2" gutterBottom  align='center'className={styles.contentTransparentBg} >
 
               {props.mainTitle}
 

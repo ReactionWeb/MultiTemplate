@@ -17,6 +17,7 @@ export interface componentProps{
     alignItems?:  "baseline" | "stretch" | "center" | "flex-end" | "flex-start" | undefined;
     partPrimary?:'auto'|true|1|2|3|4|5|6|7|8|9|10|11|12;
     partSecondary?:'auto'|true|1|2|3|4|5|6|7|8|9|10|11|12;
+    
 }
 
 export interface overlayProps extends componentProps{
@@ -26,6 +27,7 @@ export interface overlayProps extends componentProps{
 export interface inputProps{
     value: any|string;
     setValue: (value:any) => void | any;
+    rows?: 1|2|3|4|5|6|7|8|9|10|11|12;
 }
 
 export interface containerProps{

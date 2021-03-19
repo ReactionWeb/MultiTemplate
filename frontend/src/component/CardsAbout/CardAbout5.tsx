@@ -18,11 +18,11 @@ const CardAbout5 = (props : componentProps) => {
             <Paper>
                 {props.children}
             </Paper>
-            <Grid container direction="row" alignItems={props.alignItems} justify={props.justify}>
+            <Grid container direction="row" alignItems={props.alignItems} spacing={props.spacing} justify={props.justify} className={styles.contentTransparentBg}>
             
-                <Grid container item md={6} spacing={props.spacing} >
+                
                 {/*renderParagraph()*/}
-                <Grid item  >
+                <Grid item  md={6}>
            
                     <div className={styles.contentTransparentBg}>
                         <Typography variant="h2" gutterBottom>
@@ -36,11 +36,11 @@ const CardAbout5 = (props : componentProps) => {
                         
                     </div>
             
-                </Grid>
+               
                 
                 </Grid>
-                <Grid item md={3}>
-                <img src={imgLink}/>
+                <Grid item md={3} style={{backgroundImage:'url(https://picsum.photos/1920/500)'}}>
+                {/*<img src={imgLink}/>**/}
                 </Grid>
         </Grid>
 

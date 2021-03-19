@@ -13,6 +13,7 @@ import CardMap1 from "./CardMaps/CardMap1";
 import CardMapCustom1 from "./CardMaps/CardMapCustom1";
 import Paragraph from "./Paragraph/Paragraph";
 import FormCallMeBack from "./Forms/FormCallMeBack";
+import FormCallMeBackSecond from "./Forms/FormCallMeBack2";
 import {useStyles} from "./Styles";
 import {Content} from "./Content";
 import Changer from "./Changer/Changer";
@@ -21,7 +22,6 @@ import Changer from "./Changer/Changer";
 //
 // import AvatarCircle from './Reviews/ReviewsPhoto';
 // import Comments from './Comments/Comment';
-import AvatarCircle from './Reviews/ReviewsPhoto';
 import Comments1 from './Comments/Comment1';
 import Comments2 from './Comments/Comment2';
 import Comments3 from './Comments/Comment3';
@@ -39,6 +39,9 @@ import CardNews2 from "./News/CardNews2";
 import WidgetContainer from "./Containers/WidgetContainer";
 import WidgetBox from "./Containers/WidgetBox";
 import {theme} from "../theme/theme";
+import CarouselFirst from './Carousel/Carousel1';
+import Map from './MapAboutUs';
+import ImageGridList from './ImageGrid/ImgGrid';
 
 
 const Wrapper = () => {
@@ -47,7 +50,7 @@ const Wrapper = () => {
         <ThemeProvider theme={theme}>
             <BrowserRouter>
                 <Header2/>
-
+               
                 <main className={styles.container}>
                     <OverlayFilling/>
 
@@ -60,6 +63,8 @@ const Wrapper = () => {
                             <OverlayGradient/>
                         </Paragraph>
                     </WidgetBox>
+
+
 
                     <WidgetBox>
                         <Paragraph2  alignItems={"flex-end"}
@@ -78,16 +83,20 @@ const Wrapper = () => {
                             <OverlayImage/>
                         </CardBoard1>
                     </WidgetBox>
-
+                    
+                    <WidgetContainer>
+                        <ImageGridList/>
+                    </WidgetContainer>
 
 
                     {/*<CardNews2 md={6} spacing={2} mainTitle={Content.LoremContent} mainContent={Content.LoremContent3}/>*/}
+                    
                     <WidgetBox>
-                        <CardAbout1 mainTitle={Content.LoremContent}
+                        <CardNews1 mainTitle={Content.LoremContent}
                                     mainContent={Content.LoremContent3}>
                             <OverlayImage/>
                             <OverlayFilling/>
-                        </CardAbout1>
+                        </CardNews1>
                     </WidgetBox>
                     <WidgetBox>
                         <CardAbout2 mainTitle={Content.LoremContent}
@@ -103,27 +112,21 @@ const Wrapper = () => {
                             <OverlayFilling/>
                         </CardAbout3>
                     </WidgetBox>
+                    
+                    
                     <WidgetBox>
-                        <CardAbout5 mainTitle={Content.LoremContent}
-                                    mainContent={Content.LoremContent3}>
-                            <OverlayImage/>
-                            <OverlayFilling/>
-                        </CardAbout5>
-                    </WidgetBox>
-
-                    <WidgetBox>
-                        <Comments2 mainContent={Content.LoremContent2}
+                        <Comments3 mainContent={Content.LoremContent2}
                                    mainTitle={Content.LoremContent}>
                             <OverlayImage/>
                             <OverlayFilling/>
-                        </Comments2>
+                        </Comments3>
                     </WidgetBox>
 
                     <WidgetBox>
-                        <FormCallMeBack>
+                        <FormCallMeBackSecond>
                             <OverlayImage/>
                             <OverlayFilling/>
-                        </FormCallMeBack>
+                        </FormCallMeBackSecond>
                     </WidgetBox>
 
                     {/*Ченджер>*/}
@@ -141,6 +144,9 @@ const Wrapper = () => {
                             <OverlayFilling/>
                             <Paragraph md={12} justify={"center"} mainTitle={Content.LoremContent} mainContent={Content.LoremContent2}/>
                         </CardMapCustom1>
+                    </WidgetBox>
+                    <WidgetBox>
+                        <Map/>
                     </WidgetBox>
 
 
