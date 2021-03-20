@@ -1,5 +1,7 @@
 import {makeStyles} from "@material-ui/core";
 import img1 from "../static/images/img1.jpg";
+import {custom_theme} from "../theme/custom_theme";
+// import {theme} from "../theme/theme"
 
 export const useStyles = makeStyles((theme)=>({
 
@@ -73,7 +75,7 @@ export const useStyles = makeStyles((theme)=>({
         backgroundColor: "rgba(0,0,0,0.4)",
         borderRadius: "inherit",
     },
-    overlayGradient:{
+    overlayGradientTransparent:{
         position: "absolute",
         top: 0,
         bottom: 0,
@@ -82,7 +84,24 @@ export const useStyles = makeStyles((theme)=>({
         background: 'linear-gradient( 45deg, rgba(0,0,0,0.5) 59% , 40% ,rgba(0,0,0,0) 51%)',
         borderRadius: "inherit",
     },
-
+    overlayGradientDark:{
+        position: "absolute",
+        top: 0,
+        bottom: 0,
+        right: 0,
+        left: 0,
+        background: `linear-gradient( 45deg, ${custom_theme.palette.primary.dark} 59% , 40% ,rgba(0,0,0,0) 51%)`,
+        borderRadius: "inherit",
+    },
+    overlayGradientLight:{
+        position: "absolute",
+        top: 0,
+        bottom: 0,
+        right: 0,
+        left: 0,
+        background: `linear-gradient( 45deg, ${custom_theme.palette.primary.light} 59% , 40% ,rgba(0,0,0,0) 51%)`,
+        borderRadius: "inherit",
+    },
     overlayImage:{
         position: "absolute",
         top: 0,

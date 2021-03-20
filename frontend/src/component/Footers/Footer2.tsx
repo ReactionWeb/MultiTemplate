@@ -5,7 +5,7 @@ import {useStyles} from "../Styles";
 
 function Copyright() {
     return (
-      <Typography variant="body2" color="textSecondary">
+      <Typography variant="body2" color="textPrimary">
         {'Copyright © '}
         <Link color="inherit" href="https://vk.com/antonfilaretov">
           Reaction
@@ -48,7 +48,7 @@ function Copyright() {
               <ul>
                 {footer.description.map((item) => (
                   <li key={item}>
-                    <Link href="#" variant="subtitle1" color="textSecondary">
+                    <Link href="#" variant="subtitle1" color="textPrimary">
                       {item}
                     </Link>
                   </li>

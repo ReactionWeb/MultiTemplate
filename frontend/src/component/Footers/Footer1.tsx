@@ -8,7 +8,7 @@ import {useStyles} from "../Styles";
 
 function Copyright() {
     return (
-      <Typography variant="body2" color="textSecondary">
+      <Typography variant="body2" color="textPrimary">
         {'Copyright © '}
         <Link color="inherit" href="https://vk.com/antonfilaretov">
           Reaction
