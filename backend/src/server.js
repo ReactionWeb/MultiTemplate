@@ -4,6 +4,7 @@ const {apiMailer} = require('./mailer/api_mailer');
 const {apiMessenger} = require('./messenger/api_messenger');
 const {apiUser} = require('./user/api_user');
 const db = require('./database');
+const {apiWidget} = require("./widget/api_widget");
 
 
 const app = express()
@@ -16,6 +17,7 @@ async function start(){
         app.use(express.static(path.join(__dirname, "../media")));
         //подключаем возможность работы с JSON
         app.use(express.json());
+
         app.use(express.urlencoded());
         //подключаем возможность загружать на сервер файлы
         //решаем проблему с безопасностью CORS
@@ -28,6 +30,7 @@ async function start(){
         //Кастомные апи с запросами
         //apiMailer(app);
         apiUser(app);
+        apiWidget(app);
         //слушаем порт
         app.listen(1337, () => {
         console.log("Сервер запущен.") //сделать логгер

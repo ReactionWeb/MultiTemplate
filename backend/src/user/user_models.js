@@ -1,10 +1,9 @@
 //здесь описываем модели для виджетов и прочего
 const { DataTypes, Model } = require('sequelize');
-const db = require('./database');
+const db = require('../database');
 //модель с админкой
 //модель с журналом клиентов
 class User extends Model{}
-
 User.init({
     id:{
         type: DataTypes.INTEGER,
@@ -26,6 +25,6 @@ User.init({
         allowNull: false
     },
 }, {sequelize: db, modelName: 'user'});
-//модель с сотрудниками
-//на каждый виджет по модели
+
+
 module.exports = User;
