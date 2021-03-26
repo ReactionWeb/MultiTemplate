@@ -11,7 +11,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e7e4b86-d083-4593-8b39-20123b28acd7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/IMG1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widget/api_widget.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widget/query_widget.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widget/widget_models.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/user_models.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/query_user.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/query_user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/component/Content.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/component/Content.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,10 +40,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="12.13.1" />
-    <property name="javascript.nodejs.core.library.typings.version" value="12.19.9" />
-    <property name="nodejs_interpreter_path" value="$APPLICATION_CONFIG_DIR$/node/node-v12.13.1-win-x64/node" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.18.3" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.20.5" />
+    <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -46,6 +56,8 @@
       <updated>1608072794726</updated>
       <workItem from="1608072795930" duration="54000" />
       <workItem from="1608072868954" duration="1116000" />
+      <workItem from="1615658834046" duration="183000" />
+      <workItem from="1615730931495" duration="173000" />
     </task>
     <servers />
   </component>

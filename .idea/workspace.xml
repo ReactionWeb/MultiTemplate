@@ -20,30 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1357e9ef-0aeb-4fe8-975e-3872f5925e75" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/component/Overlays/OverlayGradientLight.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/component/Overlays/OverlayGradientTransparent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/media/IMG1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/widget/api_widget.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/widget/query_widget.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/widget/widget_models.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/database.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/database.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/models.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/user/user_models.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/user/query_user.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/user/query_user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/component/CardMaps/CardMap1.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/CardMaps/CardMap1.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/component/CardMaps/CardMapCustom1.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/CardMaps/CardMapCustom1.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/component/CardsAbout/CardBoard1.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/CardsAbout/CardBoard1.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/component/Comments/Comment1.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Comments/Comments1.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/component/Comments/Comment2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Comments/Comments2.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/component/Comments/Comment3.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Comments/Comments3.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/component/Footers/Footer1.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Footers/Footer1.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/component/Footers/Footer2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Footers/Footer2.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/component/Forms/FormCallMeBack.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Forms/FormCallMeBack.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/component/Headers/Header1.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Headers/Header1.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/component/Headers/Header2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Headers/Header2.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/component/Inputs/NameInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Inputs/NameInput.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/component/Inputs/PhoneInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Inputs/PhoneInput.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/component/Inputs/TextInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Inputs/TextInput.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/component/Overlays/OverlayGradient.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Overlays/OverlayGradientDark.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/component/Paragraph/Paragraph.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Paragraph/Paragraph.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/component/Paragraph/Paragraph2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Paragraph/Paragraph2.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/component/Styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Styles.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/component/Wrapper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Wrapper.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/theme/theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/theme/custom_theme.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Content.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Content.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,23 +59,25 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend/src/component/Overlays" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/backend/src/widget" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="D:\GitHub\MultiTemplate\frontend\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitHub\MultiTemplate\backend\media" />
+      <recent name="D:\GitHub\MultiTemplate\backend\src\user" />
+      <recent name="D:\GitHub\MultiTemplate\backend\src" />
+      <recent name="D:\GitHub\MultiTemplate\frontend\src\static\images" />
+      <recent name="D:\GitHub\MultiTemplate\frontend\src\component" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHub\MultiTemplate\backend\src\widget" />
       <recent name="D:\GitHub\MultiTemplate\frontend\src\component\Overlays" />
       <recent name="D:\GitHub\MultiTemplate\frontend\src\component\Containers" />
       <recent name="D:\GitHub\MultiTemplate\frontend\src\component\Container" />
       <recent name="D:\GitHub\MultiTemplate\backend\src\messenger" />
-      <recent name="D:\GitHub\MultiTemplate\frontend\src\component\Preface" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\GitHub\MultiTemplate\backend\src" />
-      <recent name="D:\GitHub\MultiTemplate\frontend\src\static\images" />
-      <recent name="D:\GitHub\MultiTemplate\frontend\src\component" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -106,6 +96,8 @@
       <workItem from="1614431620755" duration="6421000" />
       <workItem from="1614524194263" duration="6563000" />
       <workItem from="1615039438579" duration="9021000" />
+      <workItem from="1615639857827" duration="3765000" />
+      <workItem from="1615731147359" duration="6852000" />
     </task>
     <servers />
   </component>

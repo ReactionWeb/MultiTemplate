@@ -1,20 +1,28 @@
-const { registerUser, authUser } = require('./query_user');
+const {getWidgetContent } = require('./query_widget');
 
-const apiUser = (app) => {
-    app.post('/reg', async(req, res) => {
+const apiWidget = (app) => {
+    app.get('/getContent', async(req, res) => {
         try{
-            const userName = req.body.userName;
-            const email = req.body.email;
-            const password = req.body.password;
-            await registerUser(userName, email, password);
-            res.send("Пользователь зарегистрирован");
+            const id = req.query.id;
+            let response = await getWidgetContent(id);
+            res.json(response);
         } catch(e){
             console.log(e);
-            res.send("Ошибка при попытке регистрации");
+            res.send("Не получилось получить контент");
+        }
+    }),
+
+    app.post('/setContent', async(req, res) => {
+        try{
+
+        } catch(e){
+
         }
     })
-}
+}   //нам нужно как то грамотно вгонять данные от пользователя и принимать их,
+    //было бы круто иметь только два запроса, и крутить от них всё остальное.
+    //Как получить контент в любой виджет с одного GET - ясно. Но как внести правку через один POST - проблема
 
 module.exports = {
-    apiUser
+    apiWidget
 }
