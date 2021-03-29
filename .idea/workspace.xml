@@ -20,18 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1357e9ef-0aeb-4fe8-975e-3872f5925e75" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/media/IMG1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/widget/api_widget.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/widget/query_widget.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/widget/widget_models.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/database.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/database.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/models.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/user/user_models.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/user/query_user.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/user/query_user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/user/user_models.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/user/user_models.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/widget/api_widget.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/widget/api_widget.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/widget/query_widget.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/widget/query_widget.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/widget/widget_models.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/component/Content.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Content.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/ComponentInterface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/ComponentInterface.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/News/CardNews.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/News/CardNews.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Paragraph/Paragraph.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Paragraph/Paragraph.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/state/state.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/state/State.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,19 +65,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\GitHub\MultiTemplate\backend\media" />
-      <recent name="D:\GitHub\MultiTemplate\backend\src\user" />
-      <recent name="D:\GitHub\MultiTemplate\backend\src" />
-      <recent name="D:\GitHub\MultiTemplate\frontend\src\static\images" />
-      <recent name="D:\GitHub\MultiTemplate\frontend\src\component" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\GitHub\MultiTemplate\backend\src\widget" />
       <recent name="D:\GitHub\MultiTemplate\frontend\src\component\Overlays" />
       <recent name="D:\GitHub\MultiTemplate\frontend\src\component\Containers" />
       <recent name="D:\GitHub\MultiTemplate\frontend\src\component\Container" />
       <recent name="D:\GitHub\MultiTemplate\backend\src\messenger" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitHub\MultiTemplate\backend\src" />
+      <recent name="D:\GitHub\MultiTemplate\backend\media" />
+      <recent name="D:\GitHub\MultiTemplate\backend\src\user" />
+      <recent name="D:\GitHub\MultiTemplate\frontend\src\static\images" />
+      <recent name="D:\GitHub\MultiTemplate\frontend\src\component" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -98,6 +98,7 @@
       <workItem from="1615039438579" duration="9021000" />
       <workItem from="1615639857827" duration="3765000" />
       <workItem from="1615731147359" duration="6852000" />
+      <workItem from="1617045405200" duration="6062000" />
     </task>
     <servers />
   </component>

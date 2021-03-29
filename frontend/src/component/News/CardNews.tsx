@@ -11,7 +11,7 @@ import CardActions from "@material-ui/core/CardActions";
 import Button from "@material-ui/core/Button";
 import {Simulate} from "react-dom/test-utils";
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
-import {theme} from "../../theme/theme";
+import {custom_theme} from "../../theme/custom_theme";
 
 const imgLink =
   "https://picsum.photos/500/300";
@@ -26,7 +26,7 @@ const CardNews1 = (props: componentProps) => {
                 <Grid item key={item} xs={6} >
                     <Card className={styles.rotation}>
                             <CardMedia component="img"  alt="Contemplative Reptile"  min-height="120"  src={imgLink} title="Contemplative Reptile"   />
-                                <CardContent style={{ backgroundColor: theme.palette.primary.light, }}>
+                                <CardContent style={{ backgroundColor: custom_theme.palette.primary.light, }}>
                                     <Typography variant="body2" color="textSecondary" component="p">
                                         Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
                                         across all continents except Antarctica

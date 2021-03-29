@@ -4,9 +4,14 @@ import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
 import {componentProps} from "../ComponentInterface";
 import {useStyles} from "../Styles";
+// @ts-ignore
+import {useRequest} from "../../state/State";
+
 
 const Paragraph = (props : componentProps) => {
     const styles = useStyles();
+
+    const state = useRequest('http://localhost:1337/testContent', props.component_index);
 
     return(
         <Container>
@@ -25,7 +30,7 @@ const Paragraph = (props : componentProps) => {
                         <Button variant={"contained"} color={"primary"}>
                             More
                         </Button>
-                        
+                        {state}
                     </div>
                 </Grid>
             </Grid>

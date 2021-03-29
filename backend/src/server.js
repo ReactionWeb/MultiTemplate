@@ -29,7 +29,7 @@ async function start(){
 
         //Кастомные апи с запросами
         //apiMailer(app);
-        apiUser(app);
+        // apiUser(app);
         apiWidget(app);
         //слушаем порт
         app.listen(1337, () => {

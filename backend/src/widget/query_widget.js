@@ -1,4 +1,4 @@
-const {Paragraph} = require('./widget_models');
+const {Paragraph} = require('../models');
 
 
 

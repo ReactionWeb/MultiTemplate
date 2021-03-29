@@ -1,3 +1,5 @@
+//DEPRECATED, всё в models.js
+
 //здесь описываем модели для виджетов и прочего
 const { DataTypes, Model } = require('sequelize');
 const db = require('../database');
